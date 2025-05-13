@@ -4,7 +4,8 @@
 import { useState, useEffect, useCallback } from 'react';
 import { ArrowRightLeft, Copy, Star, Trash2, Volume2, X, Loader2, AlertTriangle } from 'lucide-react';
 
-// REMOVED: const dictionary = [ ... ]; // Hardcoded dictionary is removed
+// Key for localStorage
+const LOCAL_STORAGE_HISTORY_KEY = 'translatorAppHistory';
 
 // Initialize an empty translationMap
 let translationMap = {}; // This will be populated after fetching data
@@ -14,15 +15,12 @@ const buildTranslationMap = (fetchedDictionary) => {
   const newMap = {};
   if (!fetchedDictionary || fetchedDictionary.length === 0) {
     console.warn("Fetched dictionary is empty or undefined. Translation map will be empty.");
-    return newMap; // Return an empty map if no dictionary
+    return newMap;
   }
-
   fetchedDictionary.forEach(entry => {
-    // Use the keys from your API response (id, english, ju_hoansi, afrikaans)
     const eng = entry.english?.toLowerCase();
     const juh = entry.ju_hoansi?.toLowerCase();
     const afr = entry.afrikaans?.toLowerCase();
-
     if (eng) {
       if (!newMap.english) newMap.english = {};
       newMap.english[eng] = { ju_hoansi: entry.ju_hoansi, afrikaans: entry.afrikaans };
@@ -39,41 +37,35 @@ const buildTranslationMap = (fetchedDictionary) => {
   return newMap;
 };
 
-
 // Helper function to translate word by word (uses the global translationMap)
 const translateText = (text, sourceLang, targetLang) => {
   if (!text || !sourceLang || !targetLang || sourceLang === targetLang) {
     return text;
   }
-  // Ensure translationMap is populated
   if (Object.keys(translationMap).length === 0 || !translationMap[sourceLang]) {
     console.warn(`Translation map for source language "${sourceLang}" is not ready or empty.`);
-    // Optionally, you could return a message like "Dictionary loading..." or just the original text
-    return text; // Or handle as "dictionary not ready"
+    return text;
   }
-
-  const words = text.split(/(\s+)/); // Split by spaces, keeping spaces for reconstruction
+  const words = text.split(/(\s+)/);
   const translatedWords = words.map(word => {
-    if (word.trim() === '') return word; // Keep spaces
+    if (word.trim() === '') return word;
     const lowerWord = word.toLowerCase();
     const sourceDict = translationMap[sourceLang];
-
     if (sourceDict && sourceDict[lowerWord] && sourceDict[lowerWord][targetLang]) {
       return sourceDict[lowerWord][targetLang];
-    } else if (sourceDict && sourceDict[lowerWord] && targetLang === sourceLang) { // If target is same as source
+    } else if (sourceDict && sourceDict[lowerWord] && targetLang === sourceLang) {
       return word;
-    } else if (sourceDict && sourceDict[lowerWord]) { // Word found, but no translation for targetLang
+    } else if (sourceDict && sourceDict[lowerWord]) {
       return word + ` (*no ${targetLang} translation)`;
     }
-    return word; // Word not found in dictionary
+    return word;
   });
   return translatedWords.join('');
 };
 
-
 const languages = [
   { code: 'english', name: 'English' },
-  { code: 'ju_hoansi', name: 'Ju/hoansi' },
+  { code: 'ju_hoansi', name: 'Ju/’hoansi' },
   { code: 'afrikaans', name: 'Afrikaans' },
 ];
 
@@ -84,15 +76,26 @@ export default function TranslatorPage() {
   const [targetLang, setTargetLang] = useState('ju_hoansi');
   const [inputText, setInputText] = useState('');
   const [outputText, setOutputText] = useState('');
-  const [history, setHistory] = useState([]);
 
-  // NEW: State for dictionary loading and errors
+  // Initialize history from localStorage or as an empty array
+  const [history, setHistory] = useState(() => {
+    if (typeof window !== 'undefined') { // Ensure localStorage is available (client-side)
+      const savedHistory = localStorage.getItem(LOCAL_STORAGE_HISTORY_KEY);
+      try {
+        return savedHistory ? JSON.parse(savedHistory) : [];
+      } catch (error) {
+        console.error("Error parsing history from localStorage:", error);
+        return [];
+      }
+    }
+    return []; // Default for server-side rendering or if localStorage fails
+  });
+
   const [dictionaryLoading, setDictionaryLoading] = useState(true);
   const [dictionaryError, setDictionaryError] = useState(null);
   const [isMapReady, setIsMapReady] = useState(false);
 
-
-  // NEW: Fetch dictionary from API and build translationMap
+  // Effect to fetch dictionary from API
   useEffect(() => {
     const fetchDictionary = async () => {
       setDictionaryLoading(true);
@@ -106,9 +109,9 @@ export default function TranslatorPage() {
         }
         const data = await response.json();
         if (data.words && Array.isArray(data.words)) {
-          translationMap = buildTranslationMap(data.words); // Update global translationMap
-          setIsMapReady(true); // Signal that the map is ready
-          console.log("Translation map built successfully:", translationMap);
+          translationMap = buildTranslationMap(data.words);
+          setIsMapReady(true);
+          console.log("Translation map built successfully.");
         } else {
           throw new Error("Fetched data is not in the expected format (missing 'words' array).");
         }
@@ -119,11 +122,21 @@ export default function TranslatorPage() {
         setDictionaryLoading(false);
       }
     };
-
     fetchDictionary();
-  }, []); // Empty dependency array means this runs once on component mount
+  }, []);
 
-  // Perform translation when input text, languages, or map readiness change
+  // Effect to save history to localStorage whenever it changes
+  useEffect(() => {
+    if (typeof window !== 'undefined') { // Ensure localStorage is available
+      try {
+        localStorage.setItem(LOCAL_STORAGE_HISTORY_KEY, JSON.stringify(history));
+      } catch (error) {
+        console.error("Error saving history to localStorage:", error);
+      }
+    }
+  }, [history]); // This effect runs every time the history state changes
+
+  // Perform translation
   useEffect(() => {
     if (!isMapReady || inputText.trim() === '') {
       setOutputText('');
@@ -131,7 +144,7 @@ export default function TranslatorPage() {
     }
     const translated = translateText(inputText, sourceLang, targetLang);
     setOutputText(translated);
-  }, [inputText, sourceLang, targetLang, isMapReady]); // Add isMapReady dependency
+  }, [inputText, sourceLang, targetLang, isMapReady]);
 
   const handleSwapLanguages = () => {
     const currentSource = sourceLang;
@@ -193,7 +206,7 @@ export default function TranslatorPage() {
         history[0].translated === outputText &&
         history[0].from === sourceLang &&
         history[0].to === targetLang) {
-        return;
+        return; // Avoid duplicate of the most recent exact entry
       }
       const newEntry = {
         id: Date.now(),
@@ -201,9 +214,24 @@ export default function TranslatorPage() {
         to: targetLang,
         original: inputText,
         translated: outputText,
-        saved: false,
+        saved: false, // New items are not saved by default
       };
-      setHistory(prevHistory => [newEntry, ...prevHistory.slice(0, 9)]);
+      // Check if an identical entry (ignoring 'saved' status and id) already exists
+      // This is a simple check; more complex de-duplication might be needed
+      const exists = history.some(item =>
+        item.original === newEntry.original &&
+        item.translated === newEntry.translated &&
+        item.from === newEntry.from &&
+        item.to === newEntry.to
+      );
+
+      if (!exists) {
+        setHistory(prevHistory => [newEntry, ...prevHistory.slice(0, 9)]);
+      } else if (!history.find(item => item.original === newEntry.original && item.saved)) {
+        // If it exists but isn't saved, maybe update its timestamp or just don't add a new one
+        // For simplicity, we'll just prevent adding a new one if a non-saved identical one exists.
+        // Or, you could update the 'saved' status of the existing one if desired.
+      }
     }
   }, [inputText, outputText, sourceLang, targetLang, history]);
 
@@ -219,8 +247,8 @@ export default function TranslatorPage() {
     setHistory(prevHistory => prevHistory.filter(item => item.id !== id));
   };
 
-  const handleTranslateButtonClick = () => {
-    if (inputText.trim()) {
+  const handleTranslateButtonClick = () => { // This button is now primarily for "saving to history"
+    if (inputText.trim() && outputText.trim()) { // Ensure there's something to save
       handleAddToHistory();
     }
   };
@@ -228,7 +256,7 @@ export default function TranslatorPage() {
   const LanguageButton = ({ lang, onClick, type, isActive }) => (
     <button
       onClick={onClick}
-      disabled={dictionaryLoading} // Disable while dictionary is loading
+      disabled={dictionaryLoading}
       className={`px-3 sm:px-4 py-2 text-xs sm:text-sm font-medium rounded-full transition-all duration-200 ease-in-out focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 dark:focus:ring-offset-gray-900
                         ${isActive
           ? 'bg-blue-600 text-white shadow-md hover:bg-blue-700 focus:ring-blue-500'
@@ -241,7 +269,6 @@ export default function TranslatorPage() {
     </button>
   );
 
-  // NEW: UI for loading and error states
   if (dictionaryLoading) {
     return (
       <main className="min-h-screen bg-gray-100 dark:bg-gray-900 flex flex-col items-center justify-center p-4">
@@ -258,7 +285,7 @@ export default function TranslatorPage() {
         <p className="mt-4 text-lg text-red-600 dark:text-red-400">Error loading dictionary:</p>
         <p className="mt-2 text-sm text-gray-700 dark:text-gray-300 bg-red-100 dark:bg-red-900 p-3 rounded-md">{dictionaryError}</p>
         <button
-          onClick={() => window.location.reload()} // Simple reload to retry
+          onClick={() => window.location.reload()}
           className="mt-6 px-4 py-2 bg-blue-500 text-white rounded-full hover:bg-blue-600"
         >
           Try Again
@@ -269,7 +296,6 @@ export default function TranslatorPage() {
 
   return (
     <>
-      {/* Metadata is typically handled in app/layout.js or via exported metadata object if this page wasn't "use client" */}
       <main className="min-h-screen bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-gray-100 flex flex-col items-center py-6 sm:py-8 px-2 sm:px-4 font-sans">
         <div className="w-full max-w-2xl lg:max-w-4xl">
           <div className="text-center mb-6 sm:mb-8">
@@ -309,7 +335,7 @@ export default function TranslatorPage() {
                 className="w-full flex-grow h-40 sm:h-48 p-3 bg-transparent border border-gray-300 dark:border-gray-600 rounded-lg resize-none focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none text-sm sm:text-base"
                 maxLength={MAX_TEXT_LENGTH}
                 aria-label="Input text for translation"
-                disabled={!isMapReady} // Disable if map isn't ready
+                disabled={!isMapReady}
               />
               <div className="flex justify-between items-center mt-2 pt-2 border-t border-gray-200 dark:border-gray-700">
                 <span className="text-xs text-gray-500 dark:text-gray-400">{inputText.length}/{MAX_TEXT_LENGTH}</span>
