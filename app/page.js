@@ -1,16 +1,16 @@
 // app/page.js
-"use client"; // Keep this for client-side interactivity
+"use client"; // this is for client-side interactivity
 
 import { useState, useEffect, useCallback } from 'react';
 import { ArrowRightLeft, Copy, Star, Trash2, Volume2, X, Loader2, AlertTriangle } from 'lucide-react';
 
-// Key for localStorage
+// key for localStorage
 const LOCAL_STORAGE_HISTORY_KEY = 'translatorAppHistory';
 
-// Initialize an empty translationMap
+// initialize an empty translationMap
 let translationMap = {}; // This will be populated after fetching data
 
-// Helper function to build the translationMap from the fetched dictionary
+// helper function to build the translationMap from the fetched dictionary
 const buildTranslationMap = (fetchedDictionary) => {
   const newMap = {};
   if (!fetchedDictionary || fetchedDictionary.length === 0) {
@@ -37,7 +37,7 @@ const buildTranslationMap = (fetchedDictionary) => {
   return newMap;
 };
 
-// Helper function to translate word by word (uses the global translationMap)
+// helper function to translate word by word (uses the global translationMap)
 const translateText = (text, sourceLang, targetLang) => {
   if (!text || !sourceLang || !targetLang || sourceLang === targetLang) {
     return text;
@@ -77,7 +77,7 @@ export default function TranslatorPage() {
   const [inputText, setInputText] = useState('');
   const [outputText, setOutputText] = useState('');
 
-  // Initialize history from localStorage or as an empty array
+  // initialize history from localStorage or as an empty array
   const [history, setHistory] = useState(() => {
     if (typeof window !== 'undefined') { // Ensure localStorage is available (client-side)
       const savedHistory = localStorage.getItem(LOCAL_STORAGE_HISTORY_KEY);
@@ -88,14 +88,14 @@ export default function TranslatorPage() {
         return [];
       }
     }
-    return []; // Default for server-side rendering or if localStorage fails
+    return []; // default for server-side rendering or if localStorage fails
   });
 
   const [dictionaryLoading, setDictionaryLoading] = useState(true);
   const [dictionaryError, setDictionaryError] = useState(null);
   const [isMapReady, setIsMapReady] = useState(false);
 
-  // Effect to fetch dictionary from API
+  // effect to fetch dictionary from API
   useEffect(() => {
     const fetchDictionary = async () => {
       setDictionaryLoading(true);
@@ -125,18 +125,18 @@ export default function TranslatorPage() {
     fetchDictionary();
   }, []);
 
-  // Effect to save history to localStorage whenever it changes
+  // effect to save history to localStorage whenever it changes
   useEffect(() => {
-    if (typeof window !== 'undefined') { // Ensure localStorage is available
+    if (typeof window !== 'undefined') { 
       try {
         localStorage.setItem(LOCAL_STORAGE_HISTORY_KEY, JSON.stringify(history));
       } catch (error) {
         console.error("Error saving history to localStorage:", error);
       }
     }
-  }, [history]); // This effect runs every time the history state changes
+  }, [history]); 
 
-  // Perform translation
+  // perform translation
   useEffect(() => {
     if (!isMapReady || inputText.trim() === '') {
       setOutputText('');
@@ -206,7 +206,7 @@ export default function TranslatorPage() {
         history[0].translated === outputText &&
         history[0].from === sourceLang &&
         history[0].to === targetLang) {
-        return; // Avoid duplicate of the most recent exact entry
+        return; // prevent adding the same entry again
       }
       const newEntry = {
         id: Date.now(),
@@ -214,10 +214,9 @@ export default function TranslatorPage() {
         to: targetLang,
         original: inputText,
         translated: outputText,
-        saved: false, // New items are not saved by default
+        saved: false, // new items are not saved by default
       };
-      // Check if an identical entry (ignoring 'saved' status and id) already exists
-      // This is a simple check; more complex de-duplication might be needed
+      // check if an identical entry (ignoring 'saved' status and id) already exists
       const exists = history.some(item =>
         item.original === newEntry.original &&
         item.translated === newEntry.translated &&
@@ -228,9 +227,6 @@ export default function TranslatorPage() {
       if (!exists) {
         setHistory(prevHistory => [newEntry, ...prevHistory.slice(0, 9)]);
       } else if (!history.find(item => item.original === newEntry.original && item.saved)) {
-        // If it exists but isn't saved, maybe update its timestamp or just don't add a new one
-        // For simplicity, we'll just prevent adding a new one if a non-saved identical one exists.
-        // Or, you could update the 'saved' status of the existing one if desired.
       }
     }
   }, [inputText, outputText, sourceLang, targetLang, history]);
@@ -247,8 +243,8 @@ export default function TranslatorPage() {
     setHistory(prevHistory => prevHistory.filter(item => item.id !== id));
   };
 
-  const handleTranslateButtonClick = () => { // This button is now primarily for "saving to history"
-    if (inputText.trim() && outputText.trim()) { // Ensure there's something to save
+  const handleTranslateButtonClick = () => { // this button is primarily for "saving to history"
+    if (inputText.trim() && outputText.trim()) { // ensure there's something to save
       handleAddToHistory();
     }
   };
