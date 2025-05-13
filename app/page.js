@@ -1,68 +1,69 @@
-"use client";
+// app/page.js
+"use client"; // Keep this for client-side interactivity
 
-import Head from 'next/head';
 import { useState, useEffect, useCallback } from 'react';
-import { ArrowRightLeft, Copy, Star, Trash2, Volume2, X } from 'lucide-react';
+import { ArrowRightLeft, Copy, Star, Trash2, Volume2, X, Loader2, AlertTriangle } from 'lucide-react';
 
-// sample dictionary based on excel
+// REMOVED: const dictionary = [ ... ]; // Hardcoded dictionary is removed
 
-const dictionary = [
-  { id: "1", english: "elephant", ju_hoansi: "Ιχό", afrikaans: "olifant" },
-  { id: "2", english: "lion", ju_hoansi: "nihal", afrikaans: "leeu" },
-  { id: "3", english: "bird", ju_hoansi: "tzàmà", afrikaans: "voël" },
-  { id: "14", english: "star", ju_hoansi: "‡uhnsi", afrikaans: "sterre" },
-  { id: "16", english: "cry", ju_hoansi: "tjim", afrikaans: "huil" },
-  { id: "17", english: "laugh", ju_hoansi: "tshi", afrikaans: "lag" },
-  { id: "21", english: "jump", ju_hoansi: "khu", afrikaans: "spring" },
-  { id: "22", english: "night", ju_hoansi: "glu", afrikaans: "nag" }, // Note: 'glu' also means 'water' later
-  { id: "23", english: "rain", ju_hoansi: "gla", afrikaans: "reën" },
-  { id: "29", english: "moon", ju_hoansi: "nlui", afrikaans: "maan" },
-  { id: "30", english: "sit", ju_hoansi: "g!hoo", afrikaans: "sit" },
-  { id: "56", english: "father", ju_hoansi: "ba", afrikaans: "pa" },
-  { id: "114", english: "mother", ju_hoansi: "aia", afrikaans: "ma" },
-  { id: "150", english: "water", ju_hoansi: "glu", afrikaans: "water" },
-  { id: "154", english: "fire", ju_hoansi: "da'a", afrikaans: "vuur" },
-  { id: "172", english: "house", ju_hoansi: "tjù", afrikaans: "huis" },
-  { id: "149", english: "dog", ju_hoansi: "g‡huin", afrikaans: "hond" },
-  { id: "72", english: "arrow", ju_hoansi: "tchi", afrikaans: "pyl" },
-  { id: "73", english: "bow", ju_hoansi: "nlaoh", afrikaans: "boog" },
-  { id: "95", english: "food", ju_hoansi: "msi", afrikaans: "kos" },
-];
+// Initialize an empty translationMap
+let translationMap = {}; // This will be populated after fetching data
 
-// Preprocess dictionary for faster lookups
-const translationMap = {};
-dictionary.forEach(entry => {
-  const eng = entry.english?.toLowerCase();
-  const juh = entry.ju_hoansi?.toLowerCase(); // Ju/'hoansi might have case sensitivity, but for lookup make it consistent
-  const afr = entry.afrikaans?.toLowerCase();
-
-  if (eng) {
-    if (!translationMap.english) translationMap.english = {};
-    translationMap.english[eng] = { ju_hoansi: entry.ju_hoansi, afrikaans: entry.afrikaans };
+// Helper function to build the translationMap from the fetched dictionary
+const buildTranslationMap = (fetchedDictionary) => {
+  const newMap = {};
+  if (!fetchedDictionary || fetchedDictionary.length === 0) {
+    console.warn("Fetched dictionary is empty or undefined. Translation map will be empty.");
+    return newMap; // Return an empty map if no dictionary
   }
-  if (juh) {
-    if (!translationMap.ju_hoansi) translationMap.ju_hoansi = {};
-    // Handle potential duplicate keys if Ju/'hoansi words are not unique after toLowerCase()
-    translationMap.ju_hoansi[juh] = { english: entry.english, afrikaans: entry.afrikaans, ...translationMap.ju_hoansi[juh] };
-  }
-  if (afr) {
-    if (!translationMap.afrikaans) translationMap.afrikaans = {};
-    translationMap.afrikaans[afr] = { english: entry.english, ju_hoansi: entry.ju_hoansi };
-  }
-});
 
-// Helper function to translate word by word
+  fetchedDictionary.forEach(entry => {
+    // Use the keys from your API response (id, english, ju_hoansi, afrikaans)
+    const eng = entry.english?.toLowerCase();
+    const juh = entry.ju_hoansi?.toLowerCase();
+    const afr = entry.afrikaans?.toLowerCase();
+
+    if (eng) {
+      if (!newMap.english) newMap.english = {};
+      newMap.english[eng] = { ju_hoansi: entry.ju_hoansi, afrikaans: entry.afrikaans };
+    }
+    if (juh) {
+      if (!newMap.ju_hoansi) newMap.ju_hoansi = {};
+      newMap.ju_hoansi[juh] = { english: entry.english, afrikaans: entry.afrikaans, ...newMap.ju_hoansi[juh] };
+    }
+    if (afr) {
+      if (!newMap.afrikaans) newMap.afrikaans = {};
+      newMap.afrikaans[afr] = { english: entry.english, ju_hoansi: entry.ju_hoansi };
+    }
+  });
+  return newMap;
+};
+
+
+// Helper function to translate word by word (uses the global translationMap)
 const translateText = (text, sourceLang, targetLang) => {
   if (!text || !sourceLang || !targetLang || sourceLang === targetLang) {
     return text;
   }
+  // Ensure translationMap is populated
+  if (Object.keys(translationMap).length === 0 || !translationMap[sourceLang]) {
+    console.warn(`Translation map for source language "${sourceLang}" is not ready or empty.`);
+    // Optionally, you could return a message like "Dictionary loading..." or just the original text
+    return text; // Or handle as "dictionary not ready"
+  }
+
   const words = text.split(/(\s+)/); // Split by spaces, keeping spaces for reconstruction
   const translatedWords = words.map(word => {
     if (word.trim() === '') return word; // Keep spaces
     const lowerWord = word.toLowerCase();
     const sourceDict = translationMap[sourceLang];
-    if (sourceDict && sourceDict[lowerWord]) {
-      return sourceDict[lowerWord][targetLang] || word; // Return target translation or original word if not found
+
+    if (sourceDict && sourceDict[lowerWord] && sourceDict[lowerWord][targetLang]) {
+      return sourceDict[lowerWord][targetLang];
+    } else if (sourceDict && sourceDict[lowerWord] && targetLang === sourceLang) { // If target is same as source
+      return word;
+    } else if (sourceDict && sourceDict[lowerWord]) { // Word found, but no translation for targetLang
+      return word + ` (*no ${targetLang} translation)`;
     }
     return word; // Word not found in dictionary
   });
@@ -72,7 +73,7 @@ const translateText = (text, sourceLang, targetLang) => {
 
 const languages = [
   { code: 'english', name: 'English' },
-  { code: 'ju_hoansi', name: 'Ju/’hoansi' },
+  { code: 'ju_hoansi', name: 'Ju/hoansi' },
   { code: 'afrikaans', name: 'Afrikaans' },
 ];
 
@@ -83,26 +84,60 @@ export default function TranslatorPage() {
   const [targetLang, setTargetLang] = useState('ju_hoansi');
   const [inputText, setInputText] = useState('');
   const [outputText, setOutputText] = useState('');
-  const [history, setHistory] = useState([]); // [{ id, from, to, original, translated, saved }]
-  // const [showSourceDropdown, setShowSourceDropdown] = useState(false); // These states are not used
-  // const [showTargetDropdown, setShowTargetDropdown] = useState(false); // These states are not used
+  const [history, setHistory] = useState([]);
 
-  // Perform translation when input text or languages change
+  // NEW: State for dictionary loading and errors
+  const [dictionaryLoading, setDictionaryLoading] = useState(true);
+  const [dictionaryError, setDictionaryError] = useState(null);
+  const [isMapReady, setIsMapReady] = useState(false);
+
+
+  // NEW: Fetch dictionary from API and build translationMap
   useEffect(() => {
-    if (inputText.trim() === '') {
+    const fetchDictionary = async () => {
+      setDictionaryLoading(true);
+      setDictionaryError(null);
+      setIsMapReady(false);
+      try {
+        const response = await fetch('/api/words');
+        if (!response.ok) {
+          const errorData = await response.json();
+          throw new Error(errorData.error || `HTTP error! status: ${response.status}`);
+        }
+        const data = await response.json();
+        if (data.words && Array.isArray(data.words)) {
+          translationMap = buildTranslationMap(data.words); // Update global translationMap
+          setIsMapReady(true); // Signal that the map is ready
+          console.log("Translation map built successfully:", translationMap);
+        } else {
+          throw new Error("Fetched data is not in the expected format (missing 'words' array).");
+        }
+      } catch (error) {
+        console.error("Failed to fetch or build dictionary:", error);
+        setDictionaryError(error.message);
+      } finally {
+        setDictionaryLoading(false);
+      }
+    };
+
+    fetchDictionary();
+  }, []); // Empty dependency array means this runs once on component mount
+
+  // Perform translation when input text, languages, or map readiness change
+  useEffect(() => {
+    if (!isMapReady || inputText.trim() === '') {
       setOutputText('');
       return;
     }
     const translated = translateText(inputText, sourceLang, targetLang);
     setOutputText(translated);
-  }, [inputText, sourceLang, targetLang]);
+  }, [inputText, sourceLang, targetLang, isMapReady]); // Add isMapReady dependency
 
   const handleSwapLanguages = () => {
     const currentSource = sourceLang;
     const currentTarget = targetLang;
     setSourceLang(currentTarget);
     setTargetLang(currentSource);
-    // Optionally swap text as well, only if output text is not empty
     if (outputText.trim() !== '') {
       setInputText(outputText);
     }
@@ -127,7 +162,7 @@ export default function TranslatorPage() {
     }
     try {
       await navigator.clipboard.writeText(text);
-      alert('Copied to clipboard!'); // Consider using a less intrusive notification
+      alert('Copied to clipboard!');
     } catch (err) {
       console.error('Failed to copy text: ', err);
       alert('Failed to copy text.');
@@ -139,17 +174,13 @@ export default function TranslatorPage() {
       alert("Your browser doesn't support text-to-speech.");
       return;
     }
-    // Basic language mapping for speech synthesis
-    // Ju/'hoansi is unlikely to be supported by standard browser TTS engines.
-    // This is a placeholder and would need a specialized TTS for Ju/'hoansi.
-    let voiceLang = 'en-US'; // Default
+    let voiceLang = 'en-US';
     if (langCode === 'afrikaans') voiceLang = 'af-ZA';
     else if (langCode === 'ju_hoansi') {
       alert("Text-to-speech for Ju/'hoansi is not currently supported.");
       return;
     }
-
-    speechSynthesis.cancel(); // Cancel any previous speech
+    speechSynthesis.cancel();
     const utterance = new SpeechSynthesisUtterance(text);
     utterance.lang = voiceLang;
     speechSynthesis.speak(utterance);
@@ -157,7 +188,6 @@ export default function TranslatorPage() {
 
   const handleAddToHistory = useCallback(() => {
     if (inputText.trim() && outputText.trim()) {
-      // Prevent adding duplicate of the most recent entry
       if (history.length > 0 &&
         history[0].original === inputText &&
         history[0].translated === outputText &&
@@ -165,7 +195,6 @@ export default function TranslatorPage() {
         history[0].to === targetLang) {
         return;
       }
-
       const newEntry = {
         id: Date.now(),
         from: sourceLang,
@@ -174,17 +203,9 @@ export default function TranslatorPage() {
         translated: outputText,
         saved: false,
       };
-      setHistory(prevHistory => [newEntry, ...prevHistory.slice(0, 9)]); // Keep last 10
+      setHistory(prevHistory => [newEntry, ...prevHistory.slice(0, 9)]);
     }
   }, [inputText, outputText, sourceLang, targetLang, history]);
-
-  // Removed the automatic history addition from useEffect to rely on the button
-  // useEffect(() => {
-  //     if (outputText.trim() && inputText.trim()) {
-  //        // Debounce or add a specific action to trigger history add
-  //     }
-  // }, [outputText, inputText]);
-
 
   const toggleSaveHistoryItem = (id) => {
     setHistory(prevHistory =>
@@ -200,45 +221,62 @@ export default function TranslatorPage() {
 
   const handleTranslateButtonClick = () => {
     if (inputText.trim()) {
-      // Translation is already live, this button now primarily adds to history
       handleAddToHistory();
     }
   };
 
-
   const LanguageButton = ({ lang, onClick, type, isActive }) => (
     <button
       onClick={onClick}
+      disabled={dictionaryLoading} // Disable while dictionary is loading
       className={`px-3 sm:px-4 py-2 text-xs sm:text-sm font-medium rounded-full transition-all duration-200 ease-in-out focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 dark:focus:ring-offset-gray-900
                         ${isActive
           ? 'bg-blue-600 text-white shadow-md hover:bg-blue-700 focus:ring-blue-500'
           : 'bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-200 hover:bg-gray-300 dark:hover:bg-gray-600 focus:ring-gray-400'
-        }`}
+        }
+                        ${dictionaryLoading ? 'opacity-50 cursor-not-allowed' : ''}
+                        `}
     >
       {lang.name}
     </button>
   );
 
+  // NEW: UI for loading and error states
+  if (dictionaryLoading) {
+    return (
+      <main className="min-h-screen bg-gray-100 dark:bg-gray-900 flex flex-col items-center justify-center p-4">
+        <Loader2 size={48} className="text-blue-500 animate-spin" />
+        <p className="mt-4 text-lg text-gray-700 dark:text-gray-300">Loading dictionary...</p>
+      </main>
+    );
+  }
+
+  if (dictionaryError) {
+    return (
+      <main className="min-h-screen bg-gray-100 dark:bg-gray-900 flex flex-col items-center justify-center p-4 text-center">
+        <AlertTriangle size={48} className="text-red-500" />
+        <p className="mt-4 text-lg text-red-600 dark:text-red-400">Error loading dictionary:</p>
+        <p className="mt-2 text-sm text-gray-700 dark:text-gray-300 bg-red-100 dark:bg-red-900 p-3 rounded-md">{dictionaryError}</p>
+        <button
+          onClick={() => window.location.reload()} // Simple reload to retry
+          className="mt-6 px-4 py-2 bg-blue-500 text-white rounded-full hover:bg-blue-600"
+        >
+          Try Again
+        </button>
+      </main>
+    );
+  }
 
   return (
     <>
-              
-      <Head>
-        <title>Ju/&apos;hoansi Translator</title>
-        <meta name="description" content="Translate between English, Ju/'hoansi, and Afrikaans" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-           
-
+      {/* Metadata is typically handled in app/layout.js or via exported metadata object if this page wasn't "use client" */}
       <main className="min-h-screen bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-gray-100 flex flex-col items-center py-6 sm:py-8 px-2 sm:px-4 font-sans">
-        <div className="w-full max-w-2xl lg:max-w-4xl"> {/* Adjusted max-width for better responsiveness */}
-          {/* Header/Logo Area */}
+        <div className="w-full max-w-2xl lg:max-w-4xl">
           <div className="text-center mb-6 sm:mb-8">
             <h1 className="text-2xl sm:text-3xl font-bold text-blue-600 dark:text-blue-400">Multilingual Translator</h1>
             <p className="text-xs sm:text-sm text-gray-600 dark:text-gray-400">English - Ju/&apos;hoansi - Afrikaans</p>
           </div>
 
-          {/* Language Selection */}
           <div className="flex flex-col sm:flex-row items-center justify-between mb-4 p-3 bg-white dark:bg-gray-800 rounded-xl shadow-lg space-y-2 sm:space-y-0">
             <div className="flex flex-wrap justify-center sm:justify-start gap-1">
               {languages.map(lang => (
@@ -248,7 +286,8 @@ export default function TranslatorPage() {
 
             <button
               onClick={handleSwapLanguages}
-              className="p-2 rounded-full hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors focus:outline-none focus:ring-2 focus:ring-blue-500"
+              disabled={dictionaryLoading}
+              className="p-2 rounded-full hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors focus:outline-none focus:ring-2 focus:ring-blue-500 disabled:opacity-50 disabled:cursor-not-allowed"
               aria-label="Swap languages"
             >
               <ArrowRightLeft size={20} className="text-gray-600 dark:text-gray-300" />
@@ -261,17 +300,16 @@ export default function TranslatorPage() {
             </div>
           </div>
 
-          {/* Translation IO */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
-            {/* Input Text Area */}
             <div className="bg-white dark:bg-gray-800 p-4 rounded-xl shadow-lg flex flex-col">
               <textarea
                 value={inputText}
                 onChange={handleInputChange}
-                placeholder={`Enter text in ${languages.find(l => l.code === sourceLang)?.name || 'selected language'}...`}
+                placeholder={isMapReady ? `Enter text in ${languages.find(l => l.code === sourceLang)?.name || 'selected language'}...` : "Dictionary loading..."}
                 className="w-full flex-grow h-40 sm:h-48 p-3 bg-transparent border border-gray-300 dark:border-gray-600 rounded-lg resize-none focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none text-sm sm:text-base"
                 maxLength={MAX_TEXT_LENGTH}
                 aria-label="Input text for translation"
+                disabled={!isMapReady} // Disable if map isn't ready
               />
               <div className="flex justify-between items-center mt-2 pt-2 border-t border-gray-200 dark:border-gray-700">
                 <span className="text-xs text-gray-500 dark:text-gray-400">{inputText.length}/{MAX_TEXT_LENGTH}</span>
@@ -291,7 +329,6 @@ export default function TranslatorPage() {
               </div>
             </div>
 
-            {/* Output Text Area */}
             <div className="bg-white dark:bg-gray-800 p-4 rounded-xl shadow-lg flex flex-col">
               <textarea
                 value={outputText}
@@ -303,9 +340,9 @@ export default function TranslatorPage() {
               <div className="flex justify-between items-center mt-2 pt-2 border-t border-gray-200 dark:border-gray-700">
                 <button
                   onClick={handleTranslateButtonClick}
-                  className="px-3 py-1.5 bg-blue-500 text-white rounded-full hover:bg-blue-600 text-xs font-medium transition-colors focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 dark:focus:ring-offset-gray-800"
+                  className="px-3 py-1.5 bg-blue-500 text-white rounded-full hover:bg-blue-600 text-xs font-medium transition-colors focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 dark:focus:ring-offset-gray-800 disabled:opacity-50"
                   title="Save to history"
-                  disabled={!inputText.trim() || !outputText.trim()} // Disable if no text to save
+                  disabled={!inputText.trim() || !outputText.trim() || !isMapReady}
                 >
                   Save
                 </button>
@@ -321,7 +358,6 @@ export default function TranslatorPage() {
             </div>
           </div>
 
-          {/* History Section */}
           {history.length > 0 && (
             <div className="mt-8 sm:mt-10">
               <h2 className="text-lg sm:text-xl font-semibold mb-3 sm:mb-4 text-gray-700 dark:text-gray-300">Translation History</h2>
