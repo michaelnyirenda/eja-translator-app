@@ -329,7 +329,7 @@ export default function TranslatorPage() {
         <div
             className="absolute inset-0 z-0 bg-cover bg-center"
             style={{
-              backgroundImage: "url('/indigenous-bg.jpg')",
+              backgroundImage: "url('/sabe.jpg')",
               filter: "brightness(0.7) blur(0.5px)",
             }}
         />
@@ -341,7 +341,7 @@ export default function TranslatorPage() {
         <main className="relative z-10 w-full max-w-2xl lg:max-w-4xl py-6 sm:py-8 px-2 sm:px-4 font-sans text-gray-900">
           <div className="text-center mb-6 sm:mb-8">
             <h1 className="text-3xl sm:text-4xl font-bold text-amber-700 drop-shadow">JU/'H Multilingual Translator</h1>
-            <p className="text-xs sm:text-sm text-amber-900/80">English - Ju/&apos;hoansi - Afrikaans</p>
+            <p className="text-xs sm:text-sm text-white">English - Ju/&apos;hoansi - Afrikaans</p>
           </div>
 
           <div className="flex flex-col sm:flex-row items-center justify-between mb-4 p-3 bg-white/80 backdrop-blur-sm rounded-xl shadow-lg border border-amber-200/40 space-y-2 sm:space-y-0">
