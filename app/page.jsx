@@ -318,6 +318,7 @@ export default function TranslatorPage() {
             >
               Try Again
             </button>
+
           </main>
         </div>
     );
@@ -453,6 +454,12 @@ export default function TranslatorPage() {
                 </div>
               </div>
           )}
+
+          <div className="mt-10 text-center">
+            <div className="inline-block bg-amber-100/50 text-amber-900 rounded-lg px-4 py-2 text-sm font-medium shadow-sm backdrop-blur-sm">
+              "Every Ju/'hoansi word saved is a piece of culture shared with the world."         </div>
+          </div>
+
         </main>
       </div>
   );
