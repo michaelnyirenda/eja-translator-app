@@ -1,0 +1,4352 @@
+[
+  {
+    "id": 1,
+    "jul'hoan_word": "ǃxó",
+    "english_word": "elephant",
+    "afrikaans": ""
+  },
+  {
+    "id": 2,
+    "jul'hoan_word": "nǃhaì",
+    "english_word": "lion",
+    "afrikaans": ""
+  },
+  {
+    "id": 3,
+    "jul'hoan_word": "tzàmà",
+    "english_word": "bird",
+    "afrikaans": ""
+  },
+  {
+    "id": 4,
+    "jul'hoan_word": "ǀ’Hún",
+    "english_word": "white person",
+    "afrikaans": ""
+  },
+  {
+    "id": 5,
+    "jul'hoan_word": "Tamah",
+    "english_word": "herero",
+    "afrikaans": ""
+  },
+  {
+    "id": 6,
+    "jul'hoan_word": "Bùrù",
+    "english_word": "afrikaner",
+    "afrikaans": ""
+  },
+  {
+    "id": 7,
+    "jul'hoan_word": "ha",
+    "english_word": "he",
+    "afrikaans": ""
+  },
+  {
+    "id": 8,
+    "jul'hoan_word": "ha",
+    "english_word": "him",
+    "afrikaans": ""
+  },
+  {
+    "id": 9,
+    "jul'hoan_word": "ha",
+    "english_word": "his",
+    "afrikaans": ""
+  },
+  {
+    "id": 10,
+    "jul'hoan_word": "ha",
+    "english_word": "she",
+    "afrikaans": ""
+  },
+  {
+    "id": 11,
+    "jul'hoan_word": "ha",
+    "english_word": "herero",
+    "afrikaans": ""
+  },
+  {
+    "id": 12,
+    "jul'hoan_word": "ha",
+    "english_word": "it",
+    "afrikaans": ""
+  },
+  {
+    "id": 13,
+    "jul'hoan_word": "ha",
+    "english_word": "its",
+    "afrikaans": ""
+  },
+  {
+    "id": 14,
+    "jul'hoan_word": "‡uhnsi",
+    "english_word": "star",
+    "afrikaans": "sterre"
+  },
+  {
+    "id": 15,
+    "jul'hoan_word": "‡xai-n!aoh",
+    "english_word": "mouth-bow",
+    "afrikaans": "musiekboog"
+  },
+  {
+    "id": 16,
+    "jul'hoan_word": "tjim",
+    "english_word": "cry",
+    "afrikaans": "huil"
+  },
+  {
+    "id": 17,
+    "jul'hoan_word": "tshi",
+    "english_word": "laugh",
+    "afrikaans": "lag"
+  },
+  {
+    "id": 18,
+    "jul'hoan_word": "tcoq'ungo",
+    "english_word": "hand-rattle",
+    "afrikaans": "handratel"
+  },
+  {
+    "id": 19,
+    "jul'hoan_word": "tcxao djxani",
+    "english_word": "healer",
+    "afrikaans": "heelmeester"
+  },
+  {
+    "id": 20,
+    "jul'hoan_word": "jo'oro",
+    "english_word": "leg-ratte",
+    "afrikaans": "beenratel"
+  },
+  {
+    "id": 21,
+    "jul'hoan_word": "khu",
+    "english_word": "jump",
+    "afrikaans": "spring"
+  },
+  {
+    "id": 22,
+    "jul'hoan_word": "g|u",
+    "english_word": "night",
+    "afrikaans": "nag"
+  },
+  {
+    "id": 23,
+    "jul'hoan_word": "g!a",
+    "english_word": "rain",
+    "afrikaans": "reën"
+  },
+  {
+    "id": 24,
+    "jul'hoan_word": "‡are",
+    "english_word": "earring",
+    "afrikaans": "oorbel"
+  },
+  {
+    "id": 25,
+    "jul'hoan_word": "!ai",
+    "english_word": "digging stick",
+    "afrikaans": "graafstok"
+  },
+  {
+    "id": 26,
+    "jul'hoan_word": "Djxanu",
+    "english_word": "Dance",
+    "afrikaans": "Dans"
+  },
+  {
+    "id": 27,
+    "jul'hoan_word": "dungo",
+    "english_word": "thumb piano",
+    "afrikaans": "duimklavier"
+  },
+  {
+    "id": 28,
+    "jul'hoan_word": "ge'e",
+    "english_word": "sing",
+    "afrikaans": "sing"
+  },
+  {
+    "id": 29,
+    "jul'hoan_word": "n!ui",
+    "english_word": "moon",
+    "afrikaans": "maan"
+  },
+  {
+    "id": 30,
+    "jul'hoan_word": "g!hoo",
+    "english_word": "sit",
+    "afrikaans": "sit"
+  },
+  {
+    "id": 31,
+    "jul'hoan_word": "g!o'o",
+    "english_word": "cough",
+    "afrikaans": "hoes"
+  },
+  {
+    "id": 32,
+    "jul'hoan_word": "!xui",
+    "english_word": "animal tail",
+    "afrikaans": "stert"
+  },
+  {
+    "id": 33,
+    "jul'hoan_word": "!'au",
+    "english_word": "shout",
+    "afrikaans": "skree"
+  },
+  {
+    "id": 34,
+    "jul'hoan_word": "!aqi",
+    "english_word": "traditional skirt",
+    "afrikaans": "tradisionele romp"
+  },
+  {
+    "id": 35,
+    "jul'hoan_word": "!oqace",
+    "english_word": "wild onion",
+    "afrikaans": "wilde-ui"
+  },
+  {
+    "id": 36,
+    "jul'hoan_word": "g!aru",
+    "english_word": "drum",
+    "afrikaans": "trom"
+  },
+  {
+    "id": 37,
+    "jul'hoan_word": "g!a!kuisi",
+    "english_word": "clouds",
+    "afrikaans": "wolke"
+  },
+  {
+    "id": 38,
+    "jul'hoan_word": "!ainn!angtcia",
+    "english_word": "necklace",
+    "afrikaans": "halssnoer"
+  },
+  {
+    "id": 39,
+    "jul'hoan_word": "!ama",
+    "english_word": "food plant",
+    "afrikaans": "kosplant"
+  },
+  {
+    "id": 40,
+    "jul'hoan_word": "!aqbah",
+    "english_word": "clap",
+    "afrikaans": "klap"
+  },
+  {
+    "id": 41,
+    "jul'hoan_word": "!hu",
+    "english_word": "horn",
+    "afrikaans": "horing"
+  },
+  {
+    "id": 42,
+    "jul'hoan_word": "zoma",
+    "english_word": "smile",
+    "afrikaans": "glimlag"
+  },
+  {
+    "id": 43,
+    "jul'hoan_word": "‡am'm",
+    "english_word": "grind",
+    "afrikaans": "stamp"
+  },
+  {
+    "id": 44,
+    "jul'hoan_word": "n||aqu|'oan",
+    "english_word": "bateleur",
+    "afrikaans": "berghaan"
+  },
+  {
+    "id": 45,
+    "jul'hoan_word": "tcaqontcaqon",
+    "english_word": "double-banded sandgrouse",
+    "afrikaans": "dubbelbandsandpatrys"
+  },
+  {
+    "id": 46,
+    "jul'hoan_word": "!o!o",
+    "english_word": "older brother",
+    "afrikaans": "ouer broer"
+  },
+  {
+    "id": 47,
+    "jul'hoan_word": "!ui!ui",
+    "english_word": "older sister",
+    "afrikaans": "ouer suster"
+  },
+  {
+    "id": 48,
+    "jul'hoan_word": "toq",
+    "english_word": "brown honey",
+    "afrikaans": "bruinheuning"
+  },
+  {
+    "id": 49,
+    "jul'hoan_word": "zo",
+    "english_word": "yellow honey",
+    "afrikaans": "geelheuning"
+  },
+  {
+    "id": 50,
+    "jul'hoan_word": "da'a-!aihansi",
+    "english_word": "fire-making sticks",
+    "afrikaans": "vuurmaakstokke"
+  },
+  {
+    "id": 51,
+    "jul'hoan_word": "dsuu-n!u",
+    "english_word": "ostrich egg",
+    "afrikaans": "volstruiseier"
+  },
+  {
+    "id": 52,
+    "jul'hoan_word": "g!kun",
+    "english_word": "termite",
+    "afrikaans": "witmier"
+  },
+  {
+    "id": 53,
+    "jul'hoan_word": "g!o",
+    "english_word": "cricket",
+    "afrikaans": "kriek"
+  },
+  {
+    "id": 54,
+    "jul'hoan_word": "g!xoa",
+    "english_word": "water-root kambroo",
+    "afrikaans": "hotnots-waatlemoen"
+  },
+  {
+    "id": 55,
+    "jul'hoan_word": "n‡aqin",
+    "english_word": "animal-skin blanket",
+    "afrikaans": "diervelkombers"
+  },
+  {
+    "id": 56,
+    "jul'hoan_word": "ba",
+    "english_word": "father",
+    "afrikaans": "pa"
+  },
+  {
+    "id": 57,
+    "jul'hoan_word": "damah",
+    "english_word": "water tank",
+    "afrikaans": "watertenk"
+  },
+  {
+    "id": 58,
+    "jul'hoan_word": "g|a'asig||a'ani",
+    "english_word": "locust",
+    "afrikaans": "treksprinkaan"
+  },
+  {
+    "id": 59,
+    "jul'hoan_word": "g‡a'o",
+    "english_word": "wasp",
+    "afrikaans": "perdeby"
+  },
+  {
+    "id": 60,
+    "jul'hoan_word": "g|xan",
+    "english_word": "platic-beaded jewellery",
+    "afrikaans": "plastiek-kraaljuweliersware"
+  },
+  {
+    "id": 61,
+    "jul'hoan_word": "g|xan-tso",
+    "english_word": "plastic-beaded headband",
+    "afrikaans": "plastiek-kraalkopband"
+  },
+  {
+    "id": 62,
+    "jul'hoan_word": "garisa",
+    "english_word": "boomslang",
+    "afrikaans": "boomslang"
+  },
+  {
+    "id": 63,
+    "jul'hoan_word": "goqru",
+    "english_word": "lizard",
+    "afrikaans": "akkedis"
+  },
+  {
+    "id": 64,
+    "jul'hoan_word": "ari-n‡a'mn‡a'm",
+    "english_word": "african black eagle",
+    "afrikaans": "witkruisarend"
+  },
+  {
+    "id": 65,
+    "jul'hoan_word": "air",
+    "english_word": "guinea fowl",
+    "afrikaans": "tarentaal"
+  },
+  {
+    "id": 66,
+    "jul'hoan_word": "n!hamn!ham",
+    "english_word": "spider",
+    "afrikaans": "spinnekop"
+  },
+  {
+    "id": 67,
+    "jul'hoan_word": "n||obesa",
+    "english_word": "chameleon",
+    "afrikaans": "trapsoetjies"
+  },
+  {
+    "id": 68,
+    "jul'hoan_word": "!u!u",
+    "english_word": "spear",
+    "afrikaans": "spies"
+  },
+  {
+    "id": 69,
+    "jul'hoan_word": "!xo-!usi",
+    "english_word": "elephant tracks",
+    "afrikaans": "olifantspore"
+  },
+  {
+    "id": 70,
+    "jul'hoan_word": "!oaq",
+    "english_word": "lesser honeyguide",
+    "afrikaans": "kleinheuningwyser"
+  },
+  {
+    "id": 71,
+    "jul'hoan_word": "!uih",
+    "english_word": "kori bustard",
+    "afrikaans": "gompou"
+  },
+  {
+    "id": 72,
+    "jul'hoan_word": "tchi",
+    "english_word": "arrow",
+    "afrikaans": "pyl"
+  },
+  {
+    "id": 73,
+    "jul'hoan_word": "n!aoh",
+    "english_word": "bow",
+    "afrikaans": "boog"
+  },
+  {
+    "id": 74,
+    "jul'hoan_word": "g!o'a-!'haru",
+    "english_word": "white-fronted bee-eater",
+    "afrikaans": "rooikeelbyvreter"
+  },
+  {
+    "id": 75,
+    "jul'hoan_word": "g!u'ung!u'uni",
+    "english_word": "starling",
+    "afrikaans": "spreeu"
+  },
+  {
+    "id": 76,
+    "jul'hoan_word": "!'oan",
+    "english_word": "poison",
+    "afrikaans": "gif"
+  },
+  {
+    "id": 77,
+    "jul'hoan_word": "‡oah-!usi",
+    "english_word": "giraffe tracks",
+    "afrikaans": "kameelperdspore"
+  },
+  {
+    "id": 78,
+    "jul'hoan_word": "!oo!o",
+    "english_word": "tapping beetle",
+    "afrikaans": "toktokkie"
+  },
+  {
+    "id": 79,
+    "jul'hoan_word": "|hai-n|aq'aro",
+    "english_word": "rhinoceros beetle",
+    "afrikaans": "renosterkewer"
+  },
+  {
+    "id": 80,
+    "jul'hoan_word": "n|uu",
+    "english_word": "bowl",
+    "afrikaans": "bak"
+  },
+  {
+    "id": 81,
+    "jul'hoan_word": "n|uu‡aq'are",
+    "english_word": "plate",
+    "afrikaans": "bord"
+  },
+  {
+    "id": 82,
+    "jul'hoan_word": "koaqntchi",
+    "english_word": "grey loerie",
+    "afrikaans": "grysloerie"
+  },
+  {
+    "id": 83,
+    "jul'hoan_word": "huhaqra",
+    "english_word": "flamingo",
+    "afrikaans": "flamink"
+  },
+  {
+    "id": 84,
+    "jul'hoan_word": "dshau",
+    "english_word": "woman",
+    "afrikaans": "vrou"
+  },
+  {
+    "id": 85,
+    "jul'hoan_word": "g|o'o!umi",
+    "english_word": "strand of ostrich-eggshell beads",
+    "afrikaans": "string volstruiseierdopkrale"
+  },
+  {
+    "id": 86,
+    "jul'hoan_word": "g‡ui",
+    "english_word": "springhare hooking pole",
+    "afrikaans": "springhasshaakstok"
+  },
+  {
+    "id": 87,
+    "jul'hoan_word": "g!o'e-!usi",
+    "english_word": "gemsbok tracks",
+    "afrikaans": "gemsbokspore"
+  },
+  {
+    "id": 88,
+    "jul'hoan_word": "!oq'oru",
+    "english_word": "caterpillar",
+    "afrikaans": "rusper"
+  },
+  {
+    "id": 89,
+    "jul'hoan_word": "||o'a",
+    "english_word": "tortoise",
+    "afrikaans": "skilpad"
+  },
+  {
+    "id": 90,
+    "jul'hoan_word": "tsxain",
+    "english_word": "leguaan",
+    "afrikaans": "likkewaan"
+  },
+  {
+    "id": 91,
+    "jul'hoan_word": "zabizabi",
+    "english_word": "dragonfly",
+    "afrikaans": "naaldekoker"
+  },
+  {
+    "id": 92,
+    "jul'hoan_word": "zo",
+    "english_word": "bee",
+    "afrikaans": "by"
+  },
+  {
+    "id": 93,
+    "jul'hoan_word": "zoanzoan",
+    "english_word": "fly",
+    "afrikaans": "vlieg"
+  },
+  {
+    "id": 94,
+    "jul'hoan_word": "mama",
+    "english_word": "grandmother",
+    "afrikaans": "ouma"
+  },
+  {
+    "id": 95,
+    "jul'hoan_word": "msi",
+    "english_word": "food",
+    "afrikaans": "kos"
+  },
+  {
+    "id": 96,
+    "jul'hoan_word": "‡ookahaan",
+    "english_word": "lilac-breasted roller",
+    "afrikaans": "gewone troupant"
+  },
+  {
+    "id": 97,
+    "jul'hoan_word": "!ah",
+    "english_word": "red-crested korhaan",
+    "afrikaans": "boskorhaan"
+  },
+  {
+    "id": 98,
+    "jul'hoan_word": "n|aq'aro",
+    "english_word": "dung beetle",
+    "afrikaans": "miskruier"
+  },
+  {
+    "id": 99,
+    "jul'hoan_word": "n|oqnn|oqnni",
+    "english_word": "ant",
+    "afrikaans": "mier"
+  },
+  {
+    "id": 100,
+    "jul'hoan_word": "dcaa",
+    "english_word": "gemsbok cucumber",
+    "afrikaans": "gembokkomkommer"
+  },
+  {
+    "id": 101,
+    "jul'hoan_word": "dchun",
+    "english_word": "bush potato",
+    "afrikaans": "wilde-aartappel"
+  },
+  {
+    "id": 102,
+    "jul'hoan_word": "tso",
+    "english_word": "snare",
+    "afrikaans": "valstrik"
+  },
+  {
+    "id": 103,
+    "jul'hoan_word": "zaoh",
+    "english_word": "drinking straw",
+    "afrikaans": "drinkstrooitjie"
+  },
+  {
+    "id": 104,
+    "jul'hoan_word": "da'abi!oa",
+    "english_word": "children",
+    "afrikaans": "kinders"
+  },
+  {
+    "id": 105,
+    "jul'hoan_word": "da'ama",
+    "english_word": "baby",
+    "afrikaans": "baba"
+  },
+  {
+    "id": 106,
+    "jul'hoan_word": "‡'om-n|aisi",
+    "english_word": "baobab fruit",
+    "afrikaans": "kremetaragtige"
+  },
+  {
+    "id": 107,
+    "jul'hoan_word": "||oredoadoa",
+    "english_word": "bushbaby",
+    "afrikaans": "nagapie"
+  },
+  {
+    "id": 108,
+    "jul'hoan_word": "||'hao",
+    "english_word": "honey badger",
+    "afrikaans": "ratel"
+  },
+  {
+    "id": 109,
+    "jul'hoan_word": "tzamamhi",
+    "english_word": "birds",
+    "afrikaans": "voëls"
+  },
+  {
+    "id": 110,
+    "jul'hoan_word": "ca",
+    "english_word": "zombie pea",
+    "afrikaans": "wilde-ertjie"
+  },
+  {
+    "id": 111,
+    "jul'hoan_word": "!aqekxao",
+    "english_word": "hunter",
+    "afrikaans": "jagter"
+  },
+  {
+    "id": 112,
+    "jul'hoan_word": "||xai",
+    "english_word": "ovambo knife",
+    "afrikaans": "ovambo-mes"
+  },
+  {
+    "id": 113,
+    "jul'hoan_word": "||kunu",
+    "english_word": "poison mixing-bowl",
+    "afrikaans": "gifmengbak"
+  },
+  {
+    "id": 114,
+    "jul'hoan_word": "aia",
+    "english_word": "mother",
+    "afrikaans": "ma"
+  },
+  {
+    "id": 115,
+    "jul'hoan_word": "amare",
+    "english_word": "bucket",
+    "afrikaans": "emmer"
+  },
+  {
+    "id": 116,
+    "jul'hoan_word": "||au",
+    "english_word": "wooden-tipped arrow",
+    "afrikaans": "houtpuntpyl"
+  },
+  {
+    "id": 117,
+    "jul'hoan_word": "g!hoe",
+    "english_word": "raisin bush",
+    "afrikaans": "rosyntjiebos"
+  },
+  {
+    "id": 118,
+    "jul'hoan_word": "g!obe",
+    "english_word": "gathering bag",
+    "afrikaans": "versamelsak"
+  },
+  {
+    "id": 119,
+    "jul'hoan_word": "n|haibite",
+    "english_word": "eend",
+    "afrikaans": "duck"
+  },
+  {
+    "id": 120,
+    "jul'hoan_word": "n‡oaqra",
+    "english_word": "crow",
+    "afrikaans": "kraai"
+  },
+  {
+    "id": 121,
+    "jul'hoan_word": "!'Hu",
+    "english_word": "gather",
+    "afrikaans": "versamel"
+  },
+  {
+    "id": 122,
+    "jul'hoan_word": "g!omcedhadhaba",
+    "english_word": "moth",
+    "afrikaans": "mot"
+  },
+  {
+    "id": 123,
+    "jul'hoan_word": "g!u-n!angzaqni",
+    "english_word": "mosquito",
+    "afrikaans": "muskiet"
+  },
+  {
+    "id": 124,
+    "jul'hoan_word": "kopi",
+    "english_word": "cup",
+    "afrikaans": "koppie"
+  },
+  {
+    "id": 125,
+    "jul'hoan_word": "kxo",
+    "english_word": "pot",
+    "afrikaans": "pot"
+  },
+  {
+    "id": 126,
+    "jul'hoan_word": "n!oh",
+    "english_word": "corky monkey-orange",
+    "afrikaans": "geelklapper"
+  },
+  {
+    "id": 127,
+    "jul'hoan_word": "tci-||a'asi",
+    "english_word": "seeds",
+    "afrikaans": "sade"
+  },
+  {
+    "id": 128,
+    "jul'hoan_word": "g‡xai",
+    "english_word": "scorpion",
+    "afrikaans": "skerpioen"
+  },
+  {
+    "id": 129,
+    "jul'hoan_word": "g!aq'un",
+    "english_word": "grasshopper",
+    "afrikaans": "sprinkaan"
+  },
+  {
+    "id": 130,
+    "jul'hoan_word": "khukhu",
+    "english_word": "chicken",
+    "afrikaans": "hoender"
+  },
+  {
+    "id": 131,
+    "jul'hoan_word": "kitiri",
+    "english_word": "kettle",
+    "afrikaans": "ketel"
+  },
+  {
+    "id": 132,
+    "jul'hoan_word": "dhadhaba",
+    "english_word": "butterfly",
+    "afrikaans": "skoenlapper"
+  },
+  {
+    "id": 133,
+    "jul'hoan_word": "dxai",
+    "english_word": "frog",
+    "afrikaans": "padda"
+  },
+  {
+    "id": 134,
+    "jul'hoan_word": "jo'oma",
+    "english_word": "millipede",
+    "afrikaans": "duisendpoot"
+  },
+  {
+    "id": 135,
+    "jul'hoan_word": "g||aoanxoru",
+    "english_word": "praying mantis",
+    "afrikaans": "hotnotsgot"
+  },
+  {
+    "id": 136,
+    "jul'hoan_word": "!oma",
+    "english_word": "hunting bag",
+    "afrikaans": "jagsak"
+  },
+  {
+    "id": 137,
+    "jul'hoan_word": "dsuu",
+    "english_word": "ostrich",
+    "afrikaans": "volstruis"
+  },
+  {
+    "id": 138,
+    "jul'hoan_word": "||am",
+    "english_word": "eagle",
+    "afrikaans": "arend"
+  },
+  {
+    "id": 139,
+    "jul'hoan_word": "|'ai",
+    "english_word": "small hand axe",
+    "afrikaans": "klein handbyl"
+  },
+  {
+    "id": 140,
+    "jul'hoan_word": "|'uisi",
+    "english_word": "net-bag",
+    "afrikaans": "netsak"
+  },
+  {
+    "id": 141,
+    "jul'hoan_word": "dxuu",
+    "english_word": "vulture",
+    "afrikaans": "aasvoël"
+  },
+  {
+    "id": 142,
+    "jul'hoan_word": "dongi",
+    "english_word": "donkey",
+    "afrikaans": "donkie"
+  },
+  {
+    "id": 143,
+    "jul'hoan_word": "dongikara",
+    "english_word": "donkey cart",
+    "afrikaans": "donkiekar"
+  },
+  {
+    "id": 144,
+    "jul'hoan_word": "n!ang-n|osi",
+    "english_word": "eland-skin sandals",
+    "afrikaans": "elandvelsandale"
+  },
+  {
+    "id": 145,
+    "jul'hoan_word": "g‡ai-n!ang",
+    "english_word": "bracelet",
+    "afrikaans": "armband"
+  },
+  {
+    "id": 146,
+    "jul'hoan_word": "g!au-g|xan",
+    "english_word": "ring",
+    "afrikaans": "ring"
+  },
+  {
+    "id": 147,
+    "jul'hoan_word": "!urukuba",
+    "english_word": "giant eagle owl",
+    "afrikaans": "reuse-ooruil"
+  },
+  {
+    "id": 148,
+    "jul'hoan_word": "!'aun!'aun",
+    "english_word": "woodpecker",
+    "afrikaans": "houtkapper"
+  },
+  {
+    "id": 149,
+    "jul'hoan_word": "g‡huin",
+    "english_word": "dog",
+    "afrikaans": "hond"
+  },
+  {
+    "id": 150,
+    "jul'hoan_word": "g!u",
+    "english_word": "water",
+    "afrikaans": "water"
+  },
+  {
+    "id": 151,
+    "jul'hoan_word": "!u-n!a'an",
+    "english_word": "grandfather",
+    "afrikaans": "oupa"
+  },
+  {
+    "id": 152,
+    "jul'hoan_word": "!xo",
+    "english_word": "pipe",
+    "afrikaans": "pyp"
+  },
+  {
+    "id": 153,
+    "jul'hoan_word": "!aqe",
+    "english_word": "hunt",
+    "afrikaans": "jag"
+  },
+  {
+    "id": 154,
+    "jul'hoan_word": "da'a",
+    "english_word": "fire",
+    "afrikaans": "vuur"
+  },
+  {
+    "id": 155,
+    "jul'hoan_word": "da'a!aihan",
+    "english_word": "firewood",
+    "afrikaans": "vuurhout"
+  },
+  {
+    "id": 156,
+    "jul'hoan_word": "n‡ahng",
+    "english_word": "python",
+    "afrikaans": "luislang"
+  },
+  {
+    "id": 157,
+    "jul'hoan_word": "n‡u'un",
+    "english_word": "worm",
+    "afrikaans": "wurm"
+  },
+  {
+    "id": 158,
+    "jul'hoan_word": "tchi-!aq",
+    "english_word": "steel-tipped arrow",
+    "afrikaans": "staalpuntpyl"
+  },
+  {
+    "id": 159,
+    "jul'hoan_word": "thobo",
+    "english_word": "arrow putty",
+    "afrikaans": "pylgom"
+  },
+  {
+    "id": 160,
+    "jul'hoan_word": "‡ai‡abi",
+    "english_word": "dove",
+    "afrikaans": "duif"
+  },
+  {
+    "id": 161,
+    "jul'hoan_word": "mì",
+    "english_word": "I,me,my",
+    "afrikaans": ""
+  },
+  {
+    "id": 162,
+    "jul'hoan_word": "mtsá",
+    "english_word": "we,us,our",
+    "afrikaans": ""
+  },
+  {
+    "id": 163,
+    "jul'hoan_word": "à",
+    "english_word": "you,your",
+    "afrikaans": ""
+  },
+  {
+    "id": 164,
+    "jul'hoan_word": "èstá",
+    "english_word": "we,us,our",
+    "afrikaans": ""
+  },
+  {
+    "id": 165,
+    "jul'hoan_word": "m!á",
+    "english_word": "we,us,our",
+    "afrikaans": ""
+  },
+  {
+    "id": 166,
+    "jul'hoan_word": "è!á",
+    "english_word": "we,us,our",
+    "afrikaans": ""
+  },
+  {
+    "id": 167,
+    "jul'hoan_word": "ìtsá",
+    "english_word": "you,your",
+    "afrikaans": ""
+  },
+  {
+    "id": 168,
+    "jul'hoan_word": "ìǃá",
+    "english_word": "you, your",
+    "afrikaans": ""
+  },
+  {
+    "id": 169,
+    "jul'hoan_word": "ha",
+    "english_word": "he, him, his,she, her",
+    "afrikaans": ""
+  },
+  {
+    "id": 170,
+    "jul'hoan_word": "sà",
+    "english_word": "they, them,their",
+    "afrikaans": ""
+  },
+  {
+    "id": 171,
+    "jul'hoan_word": "sìǃá",
+    "english_word": "they, them,their",
+    "afrikaans": ""
+  },
+  {
+    "id": 172,
+    "jul'hoan_word": "tjù",
+    "english_word": "house",
+    "afrikaans": ""
+  },
+  {
+    "id": 173,
+    "jul'hoan_word": "tjùsì",
+    "english_word": "houses",
+    "afrikaans": ""
+  },
+  {
+    "id": 174,
+    "jul'hoan_word": "ǂxanù",
+    "english_word": "book",
+    "afrikaans": ""
+  },
+  {
+    "id": 175,
+    "jul'hoan_word": "ǂxanùsì",
+    "english_word": "books",
+    "afrikaans": ""
+  },
+  {
+    "id": 176,
+    "jul'hoan_word": "útò",
+    "english_word": "car",
+    "afrikaans": ""
+  },
+  {
+    "id": 177,
+    "jul'hoan_word": "útòsì",
+    "english_word": "cars",
+    "afrikaans": ""
+  },
+  {
+    "id": 178,
+    "jul'hoan_word": "bá",
+    "english_word": "father",
+    "afrikaans": ""
+  },
+  {
+    "id": 179,
+    "jul'hoan_word": "básín",
+    "english_word": "fathers",
+    "afrikaans": ""
+  },
+  {
+    "id": 180,
+    "jul'hoan_word": "taqè",
+    "english_word": "mother",
+    "afrikaans": ""
+  },
+  {
+    "id": 181,
+    "jul'hoan_word": "taqèsín",
+    "english_word": "mothers",
+    "afrikaans": ""
+  },
+  {
+    "id": 182,
+    "jul'hoan_word": "gǁàq",
+    "english_word": "aunt",
+    "afrikaans": ""
+  },
+  {
+    "id": 183,
+    "jul'hoan_word": "gǁàqsín",
+    "english_word": "aunts",
+    "afrikaans": ""
+  },
+  {
+    "id": 184,
+    "jul'hoan_word": "ǃxómà",
+    "english_word": "little elephant, elephant calf",
+    "afrikaans": ""
+  },
+  {
+    "id": 185,
+    "jul'hoan_word": "ǃxómhí",
+    "english_word": "little elephants, elephant calves",
+    "afrikaans": ""
+  },
+  {
+    "id": 186,
+    "jul'hoan_word": "gǂhúínmà",
+    "english_word": "little dog, puppy",
+    "afrikaans": ""
+  },
+  {
+    "id": 187,
+    "jul'hoan_word": "gǂhúínmhí",
+    "english_word": "little dogs, puppies",
+    "afrikaans": ""
+  },
+  {
+    "id": 188,
+    "jul'hoan_word": "ǃ’hoàn",
+    "english_word": "man",
+    "afrikaans": ""
+  },
+  {
+    "id": 189,
+    "jul'hoan_word": "nǁaqè",
+    "english_word": "men",
+    "afrikaans": ""
+  },
+  {
+    "id": 190,
+    "jul'hoan_word": "jù",
+    "english_word": "person",
+    "afrikaans": ""
+  },
+  {
+    "id": 191,
+    "jul'hoan_word": "jú",
+    "english_word": "people",
+    "afrikaans": ""
+  },
+  {
+    "id": 192,
+    "jul'hoan_word": "dí",
+    "english_word": "female",
+    "afrikaans": ""
+  },
+  {
+    "id": 193,
+    "jul'hoan_word": "dóré",
+    "english_word": "strange, different, other",
+    "afrikaans": ""
+  },
+  {
+    "id": 194,
+    "jul'hoan_word": "gèsín",
+    "english_word": "the remaining, the other",
+    "afrikaans": ""
+  },
+  {
+    "id": 195,
+    "jul'hoan_word": "jàn",
+    "english_word": "good, correct",
+    "afrikaans": ""
+  },
+  {
+    "id": 196,
+    "jul'hoan_word": "zé",
+    "english_word": "new",
+    "afrikaans": ""
+  },
+  {
+    "id": 197,
+    "jul'hoan_word": "zàqí",
+    "english_word": "new",
+    "afrikaans": ""
+  },
+  {
+    "id": 198,
+    "jul'hoan_word": "ǀ’hoàn",
+    "english_word": "real, actual, true",
+    "afrikaans": ""
+  },
+  {
+    "id": 199,
+    "jul'hoan_word": "ǂ’àng",
+    "english_word": "old, worn-out",
+    "afrikaans": ""
+  },
+  {
+    "id": 200,
+    "jul'hoan_word": "ǃ’àn",
+    "english_word": "old, worn-out",
+    "afrikaans": ""
+  },
+  {
+    "id": 201,
+    "jul'hoan_word": "gǃoq",
+    "english_word": "male",
+    "afrikaans": ""
+  },
+  {
+    "id": 202,
+    "jul'hoan_word": "pl. nǁaqè",
+    "english_word": "male",
+    "afrikaans": ""
+  },
+  {
+    "id": 203,
+    "jul'hoan_word": "nǃa’àn",
+    "english_word": "adult, grown-up",
+    "afrikaans": ""
+  },
+  {
+    "id": 204,
+    "jul'hoan_word": "pl. ǃàè",
+    "english_word": "adult, grown-up",
+    "afrikaans": ""
+  },
+  {
+    "id": 205,
+    "jul'hoan_word": "ǃàèǃàè",
+    "english_word": "adult, grown-up",
+    "afrikaans": ""
+  },
+  {
+    "id": 206,
+    "jul'hoan_word": "nǀè’é",
+    "english_word": "one",
+    "afrikaans": ""
+  },
+  {
+    "id": 207,
+    "jul'hoan_word": "nǀúí",
+    "english_word": "a certain, another",
+    "afrikaans": ""
+  },
+  {
+    "id": 208,
+    "jul'hoan_word": "waqnhè",
+    "english_word": "each, every",
+    "afrikaans": ""
+  },
+  {
+    "id": 209,
+    "jul'hoan_word": "waqnkè",
+    "english_word": "each, every",
+    "afrikaans": ""
+  },
+  {
+    "id": 210,
+    "jul'hoan_word": "nǃànì",
+    "english_word": "three",
+    "afrikaans": ""
+  },
+  {
+    "id": 211,
+    "jul'hoan_word": "tsàqn",
+    "english_word": "two",
+    "afrikaans": ""
+  },
+  {
+    "id": 212,
+    "jul'hoan_word": "tsán",
+    "english_word": "two",
+    "afrikaans": ""
+  },
+  {
+    "id": 213,
+    "jul'hoan_word": "tsánkútsán",
+    "english_word": "four",
+    "afrikaans": ""
+  },
+  {
+    "id": 214,
+    "jul'hoan_word": "waqnsì",
+    "english_word": "all, the whole",
+    "afrikaans": ""
+  },
+  {
+    "id": 215,
+    "jul'hoan_word": "ǃxàrè",
+    "english_word": "some",
+    "afrikaans": ""
+  },
+  {
+    "id": 216,
+    "jul'hoan_word": "wècè",
+    "english_word": "all, the whole",
+    "afrikaans": ""
+  },
+  {
+    "id": 217,
+    "jul'hoan_word": "wècèsì",
+    "english_word": "all, the whole",
+    "afrikaans": ""
+  },
+  {
+    "id": 218,
+    "jul'hoan_word": "à",
+    "english_word": "you, your (sg.)",
+    "afrikaans": ""
+  },
+  {
+    "id": 219,
+    "jul'hoan_word": "áíá",
+    "english_word": "my mother",
+    "afrikaans": ""
+  },
+  {
+    "id": 220,
+    "jul'hoan_word": "ámá",
+    "english_word": "body",
+    "afrikaans": ""
+  },
+  {
+    "id": 221,
+    "jul'hoan_word": "áré",
+    "english_word": "love",
+    "afrikaans": ""
+  },
+  {
+    "id": 222,
+    "jul'hoan_word": "bá",
+    "english_word": "father",
+    "afrikaans": ""
+  },
+  {
+    "id": 223,
+    "jul'hoan_word": "Bùrù",
+    "english_word": "Afrikaner",
+    "afrikaans": ""
+  },
+  {
+    "id": 224,
+    "jul'hoan_word": "ce",
+    "english_word": "returner",
+    "afrikaans": ""
+  },
+  {
+    "id": 225,
+    "jul'hoan_word": "ce tè, ce ká",
+    "english_word": "again, also",
+    "afrikaans": ""
+  },
+  {
+    "id": 226,
+    "jul'hoan_word": "còàcòà",
+    "english_word": "start, begin",
+    "afrikaans": ""
+  },
+  {
+    "id": 227,
+    "jul'hoan_word": "còrò",
+    "english_word": "tobacco",
+    "afrikaans": ""
+  },
+  {
+    "id": 228,
+    "jul'hoan_word": "cú (with sg. subj.)",
+    "english_word": "lie (down), be horizontal",
+    "afrikaans": ""
+  },
+  {
+    "id": 229,
+    "jul'hoan_word": "dà’á",
+    "english_word": "fire",
+    "afrikaans": ""
+  },
+  {
+    "id": 230,
+    "jul'hoan_word": "da’àmà, pl. dà’ábí(sí)",
+    "english_word": "child",
+    "afrikaans": ""
+  },
+  {
+    "id": 231,
+    "jul'hoan_word": "dcàá",
+    "english_word": "steal",
+    "afrikaans": ""
+  },
+  {
+    "id": 232,
+    "jul'hoan_word": "dcàákxàò",
+    "english_word": "thief",
+    "afrikaans": ""
+  },
+  {
+    "id": 233,
+    "jul'hoan_word": "dchùún",
+    "english_word": "bump",
+    "afrikaans": ""
+  },
+  {
+    "id": 234,
+    "jul'hoan_word": "dí",
+    "english_word": "female",
+    "afrikaans": ""
+  },
+  {
+    "id": 235,
+    "jul'hoan_word": "din",
+    "english_word": "buttock, backside; under",
+    "afrikaans": ""
+  },
+  {
+    "id": 236,
+    "jul'hoan_word": "dinnǃángkhòèà",
+    "english_word": "afterwards",
+    "afrikaans": ""
+  },
+  {
+    "id": 237,
+    "jul'hoan_word": "dóré",
+    "english_word": "strange, different, other",
+    "afrikaans": ""
+  },
+  {
+    "id": 238,
+    "jul'hoan_word": "droma",
+    "english_word": "drum",
+    "afrikaans": ""
+  },
+  {
+    "id": 239,
+    "jul'hoan_word": "dshàú",
+    "english_word": "woman, wife",
+    "afrikaans": ""
+  },
+  {
+    "id": 240,
+    "jul'hoan_word": "dsùú-nǃnú",
+    "english_word": "ostrich egg",
+    "afrikaans": ""
+  },
+  {
+    "id": 241,
+    "jul'hoan_word": "dù",
+    "english_word": "do",
+    "afrikaans": ""
+  },
+  {
+    "id": 242,
+    "jul'hoan_word": "ètsá (dual excl.)",
+    "english_word": "we, us, our",
+    "afrikaans": ""
+  },
+  {
+    "id": 243,
+    "jul'hoan_word": "èǃá (pl. excl.)",
+    "english_word": "we, us, our",
+    "afrikaans": ""
+  },
+  {
+    "id": 244,
+    "jul'hoan_word": "farmakxàò",
+    "english_word": "farmer",
+    "afrikaans": ""
+  },
+  {
+    "id": 245,
+    "jul'hoan_word": "gèà",
+    "english_word": "stay (at)",
+    "afrikaans": ""
+  },
+  {
+    "id": 246,
+    "jul'hoan_word": "gèsín",
+    "english_word": "the remaining, the other",
+    "afrikaans": ""
+  },
+  {
+    "id": 247,
+    "jul'hoan_word": "gè’é",
+    "english_word": "sing",
+    "afrikaans": ""
+  },
+  {
+    "id": 248,
+    "jul'hoan_word": "gè’ésí",
+    "english_word": "way of singing",
+    "afrikaans": ""
+  },
+  {
+    "id": 249,
+    "jul'hoan_word": "goàq",
+    "english_word": "in the past, long ago",
+    "afrikaans": ""
+  },
+  {
+    "id": 250,
+    "jul'hoan_word": "goàqhà",
+    "english_word": "long ago",
+    "afrikaans": ""
+  },
+  {
+    "id": 251,
+    "jul'hoan_word": "goàqǂ’àn",
+    "english_word": "yesterday",
+    "afrikaans": ""
+  },
+  {
+    "id": 252,
+    "jul'hoan_word": "gòbá",
+    "english_word": "black man",
+    "afrikaans": ""
+  },
+  {
+    "id": 253,
+    "jul'hoan_word": "gòqrú",
+    "english_word": "lizard",
+    "afrikaans": ""
+  },
+  {
+    "id": 254,
+    "jul'hoan_word": "gú",
+    "english_word": "build",
+    "afrikaans": ""
+  },
+  {
+    "id": 255,
+    "jul'hoan_word": "gú (with sg. obj.)",
+    "english_word": "take",
+    "afrikaans": ""
+  },
+  {
+    "id": 256,
+    "jul'hoan_word": "gù tsáú",
+    "english_word": "lift",
+    "afrikaans": ""
+  },
+  {
+    "id": 257,
+    "jul'hoan_word": "gúmí",
+    "english_word": "cow, cattle",
+    "afrikaans": ""
+  },
+  {
+    "id": 258,
+    "jul'hoan_word": "gúmíǃhá",
+    "english_word": "beef",
+    "afrikaans": ""
+  },
+  {
+    "id": 259,
+    "jul'hoan_word": "gùú",
+    "english_word": "sheep",
+    "afrikaans": ""
+  },
+  {
+    "id": 260,
+    "jul'hoan_word": "gǀaàxú",
+    "english_word": "chair",
+    "afrikaans": ""
+  },
+  {
+    "id": 261,
+    "jul'hoan_word": "gǀàè",
+    "english_word": "come here, arrive",
+    "afrikaans": ""
+  },
+  {
+    "id": 262,
+    "jul'hoan_word": "gǀáí (with sg. subj.)",
+    "english_word": "go out",
+    "afrikaans": ""
+  },
+  {
+    "id": 263,
+    "jul'hoan_word": "gǀaoh",
+    "english_word": "be strong, strength",
+    "afrikaans": ""
+  },
+  {
+    "id": 264,
+    "jul'hoan_word": "gǀà’á",
+    "english_word": "eye",
+    "afrikaans": ""
+  },
+  {
+    "id": 265,
+    "jul'hoan_word": "gǀà’á-nǃáng",
+    "english_word": "in front of, ahead of",
+    "afrikaans": ""
+  },
+  {
+    "id": 266,
+    "jul'hoan_word": "gǀò’ó",
+    "english_word": "beadword",
+    "afrikaans": ""
+  },
+  {
+    "id": 267,
+    "jul'hoan_word": "gǀúí",
+    "english_word": "forest",
+    "afrikaans": ""
+  },
+  {
+    "id": 268,
+    "jul'hoan_word": "gǀuih",
+    "english_word": "hyena",
+    "afrikaans": ""
+  },
+  {
+    "id": 269,
+    "jul'hoan_word": "gǀxaiàn",
+    "english_word": "graze",
+    "afrikaans": ""
+  },
+  {
+    "id": 270,
+    "jul'hoan_word": "gǂà (with pl. subj.)",
+    "english_word": "lie (down)",
+    "afrikaans": ""
+  },
+  {
+    "id": 271,
+    "jul'hoan_word": "gǂàrá",
+    "english_word": "ask for, beg",
+    "afrikaans": ""
+  },
+  {
+    "id": 272,
+    "jul'hoan_word": "gǂà’ín",
+    "english_word": "be long, tall",
+    "afrikaans": ""
+  },
+  {
+    "id": 273,
+    "jul'hoan_word": "gǂhúín",
+    "english_word": "dog",
+    "afrikaans": ""
+  },
+  {
+    "id": 274,
+    "jul'hoan_word": "gǂhúínmà (pl. gǂhúínmhí)",
+    "english_word": "little dog, puppy",
+    "afrikaans": ""
+  },
+  {
+    "id": 275,
+    "jul'hoan_word": "gǂúí",
+    "english_word": "springhare hooking pole",
+    "afrikaans": ""
+  },
+  {
+    "id": 276,
+    "jul'hoan_word": "gǂxàbà",
+    "english_word": "stumble",
+    "afrikaans": ""
+  },
+  {
+    "id": 277,
+    "jul'hoan_word": "gǃá",
+    "english_word": "go back/home",
+    "afrikaans": ""
+  },
+  {
+    "id": 278,
+    "jul'hoan_word": "gǃààn",
+    "english_word": "be red/brown",
+    "afrikaans": ""
+  },
+  {
+    "id": 279,
+    "jul'hoan_word": "gǃám",
+    "english_word": "hide",
+    "afrikaans": ""
+  },
+  {
+    "id": 280,
+    "jul'hoan_word": "gǃáú",
+    "english_word": "hand",
+    "afrikaans": ""
+  },
+  {
+    "id": 281,
+    "jul'hoan_word": "gǃà’ámá",
+    "english_word": "enter, go in",
+    "afrikaans": ""
+  },
+  {
+    "id": 282,
+    "jul'hoan_word": "gǃà’í (with pl. subj.)",
+    "english_word": "go out",
+    "afrikaans": ""
+  },
+  {
+    "id": 283,
+    "jul'hoan_word": "gǃhòó (with pl. subj.)",
+    "english_word": "sit",
+    "afrikaans": ""
+  },
+  {
+    "id": 284,
+    "jul'hoan_word": "gǃoh",
+    "english_word": "smoke",
+    "afrikaans": ""
+  },
+  {
+    "id": 285,
+    "jul'hoan_word": "gǃoq, pl. nǁaqè",
+    "english_word": "male",
+    "afrikaans": ""
+  },
+  {
+    "id": 286,
+    "jul'hoan_word": "gǃò’á-nǃáng",
+    "english_word": "in front of, ahead of",
+    "afrikaans": ""
+  },
+  {
+    "id": 287,
+    "jul'hoan_word": "gǃò’é",
+    "english_word": "oryx",
+    "afrikaans": ""
+  },
+  {
+    "id": 288,
+    "jul'hoan_word": "gǃú",
+    "english_word": "water",
+    "afrikaans": ""
+  },
+  {
+    "id": 289,
+    "jul'hoan_word": "gǃxà",
+    "english_word": "take out",
+    "afrikaans": ""
+  },
+  {
+    "id": 290,
+    "jul'hoan_word": "gǁà (with pl. subj.)",
+    "english_word": "stand",
+    "afrikaans": ""
+  },
+  {
+    "id": 291,
+    "jul'hoan_word": "gǁà (with pl. obj.)",
+    "english_word": "put down",
+    "afrikaans": ""
+  },
+  {
+    "id": 292,
+    "jul'hoan_word": "gǁàq",
+    "english_word": "aunt",
+    "afrikaans": ""
+  },
+  {
+    "id": 293,
+    "jul'hoan_word": "gǁà’ámá",
+    "english_word": "now",
+    "afrikaans": ""
+  },
+  {
+    "id": 294,
+    "jul'hoan_word": "gǁà’í",
+    "english_word": "give birth",
+    "afrikaans": ""
+  },
+  {
+    "id": 295,
+    "jul'hoan_word": "gǁxún",
+    "english_word": "put down",
+    "afrikaans": ""
+  },
+  {
+    "id": 296,
+    "jul'hoan_word": "ha",
+    "english_word": "he, him, his, she, her",
+    "afrikaans": ""
+  },
+  {
+    "id": 297,
+    "jul'hoan_word": "hajòè ré?",
+    "english_word": "who?, whom?",
+    "afrikaans": ""
+  },
+  {
+    "id": 298,
+    "jul'hoan_word": "hàq’áré",
+    "english_word": "fetch",
+    "afrikaans": ""
+  },
+  {
+    "id": 299,
+    "jul'hoan_word": "hatcé ré?",
+    "english_word": "what?, why?",
+    "afrikaans": ""
+  },
+  {
+    "id": 300,
+    "jul'hoan_word": "hatcékhòèà ré?",
+    "english_word": "why?",
+    "afrikaans": ""
+  },
+  {
+    "id": 301,
+    "jul'hoan_word": "hè",
+    "english_word": "this, these",
+    "afrikaans": ""
+  },
+  {
+    "id": 302,
+    "jul'hoan_word": "ho",
+    "english_word": "find, get, see",
+    "afrikaans": ""
+  },
+  {
+    "id": 303,
+    "jul'hoan_word": "hoeǃ!",
+    "english_word": "come!",
+    "afrikaans": ""
+  },
+  {
+    "id": 304,
+    "jul'hoan_word": "hòré",
+    "english_word": "hate",
+    "afrikaans": ""
+  },
+  {
+    "id": 305,
+    "jul'hoan_word": "iìn",
+    "english_word": "yes",
+    "afrikaans": ""
+  },
+  {
+    "id": 306,
+    "jul'hoan_word": "írí",
+    "english_word": "hour",
+    "afrikaans": ""
+  },
+  {
+    "id": 307,
+    "jul'hoan_word": "ìtsá (plural)",
+    "english_word": "you, your",
+    "afrikaans": ""
+  },
+  {
+    "id": 308,
+    "jul'hoan_word": "ìǃá (pl.)",
+    "english_word": "you, your",
+    "afrikaans": ""
+  },
+  {
+    "id": 309,
+    "jul'hoan_word": "jàn",
+    "english_word": "good, correct",
+    "afrikaans": ""
+  },
+  {
+    "id": 310,
+    "jul'hoan_word": "jaqm",
+    "english_word": "be thin",
+    "afrikaans": ""
+  },
+  {
+    "id": 311,
+    "jul'hoan_word": "jaqma",
+    "english_word": "thinness",
+    "afrikaans": ""
+  },
+  {
+    "id": 312,
+    "jul'hoan_word": "jú",
+    "english_word": "people",
+    "afrikaans": ""
+  },
+  {
+    "id": 313,
+    "jul'hoan_word": "jù",
+    "english_word": "person",
+    "afrikaans": ""
+  },
+  {
+    "id": 314,
+    "jul'hoan_word": "júsì",
+    "english_word": "one’s own people/family members",
+    "afrikaans": ""
+  },
+  {
+    "id": 315,
+    "jul'hoan_word": "kà",
+    "english_word": "now, at this moment",
+    "afrikaans": ""
+  },
+  {
+    "id": 316,
+    "jul'hoan_word": "ká",
+    "english_word": "and, but; if, when",
+    "afrikaans": ""
+  },
+  {
+    "id": 317,
+    "jul'hoan_word": "ká ǁ’à",
+    "english_word": "so (that), in order to",
+    "afrikaans": ""
+  },
+  {
+    "id": 318,
+    "jul'hoan_word": "káícé",
+    "english_word": "very",
+    "afrikaans": ""
+  },
+  {
+    "id": 319,
+    "jul'hoan_word": "kàqá",
+    "english_word": "already",
+    "afrikaans": ""
+  },
+  {
+    "id": 320,
+    "jul'hoan_word": "kàrè",
+    "english_word": "want",
+    "afrikaans": ""
+  },
+  {
+    "id": 321,
+    "jul'hoan_word": "kàtongá",
+    "english_word": "box",
+    "afrikaans": ""
+  },
+  {
+    "id": 322,
+    "jul'hoan_word": "khàmà",
+    "english_word": "because",
+    "afrikaans": ""
+  },
+  {
+    "id": 323,
+    "jul'hoan_word": "khàrú",
+    "english_word": "get off, get down from",
+    "afrikaans": ""
+  },
+  {
+    "id": 324,
+    "jul'hoan_word": "khoǃ!",
+    "english_word": "wait!",
+    "afrikaans": ""
+  },
+  {
+    "id": 325,
+    "jul'hoan_word": "khòè",
+    "english_word": "each other, one another",
+    "afrikaans": ""
+  },
+  {
+    "id": 326,
+    "jul'hoan_word": "khòècà",
+    "english_word": "perhaps, seem",
+    "afrikaans": ""
+  },
+  {
+    "id": 327,
+    "jul'hoan_word": "khòè nǀúí",
+    "english_word": "perhaps",
+    "afrikaans": ""
+  },
+  {
+    "id": 328,
+    "jul'hoan_word": "khu",
+    "english_word": "jump",
+    "afrikaans": ""
+  },
+  {
+    "id": 329,
+    "jul'hoan_word": "khúí",
+    "english_word": "be painful",
+    "afrikaans": ""
+  },
+  {
+    "id": 330,
+    "jul'hoan_word": "khúínkèhè",
+    "english_word": "here",
+    "afrikaans": ""
+  },
+  {
+    "id": 331,
+    "jul'hoan_word": "kò",
+    "english_word": "say",
+    "afrikaans": ""
+  },
+  {
+    "id": 332,
+    "jul'hoan_word": "kòà gǀàè kè",
+    "english_word": "there, on that side",
+    "afrikaans": ""
+  },
+  {
+    "id": 333,
+    "jul'hoan_word": "kòà tsí kè",
+    "english_word": "here, on this side",
+    "afrikaans": ""
+  },
+  {
+    "id": 334,
+    "jul'hoan_word": "kòà ú to’à",
+    "english_word": "over there",
+    "afrikaans": ""
+  },
+  {
+    "id": 335,
+    "jul'hoan_word": "kòà ǂaeh kè",
+    "english_word": "down(wards), below, down here",
+    "afrikaans": ""
+  },
+  {
+    "id": 336,
+    "jul'hoan_word": "kòà ǃ’àn kè",
+    "english_word": "up(wards), above, up here",
+    "afrikaans": ""
+  },
+  {
+    "id": 337,
+    "jul'hoan_word": "kòàkè",
+    "english_word": "here",
+    "afrikaans": ""
+  },
+  {
+    "id": 338,
+    "jul'hoan_word": "kòàq",
+    "english_word": "fear",
+    "afrikaans": ""
+  },
+  {
+    "id": 339,
+    "jul'hoan_word": "kòàrà",
+    "english_word": "not have",
+    "afrikaans": ""
+  },
+  {
+    "id": 340,
+    "jul'hoan_word": "koh",
+    "english_word": "do thus, do so",
+    "afrikaans": ""
+  },
+  {
+    "id": 341,
+    "jul'hoan_word": "kópì",
+    "english_word": "cup",
+    "afrikaans": ""
+  },
+  {
+    "id": 342,
+    "jul'hoan_word": "kúá",
+    "english_word": "soon, suddenly",
+    "afrikaans": ""
+  },
+  {
+    "id": 343,
+    "jul'hoan_word": "kúrú",
+    "english_word": "make",
+    "afrikaans": ""
+  },
+  {
+    "id": 344,
+    "jul'hoan_word": "kxà",
+    "english_word": "ground",
+    "afrikaans": ""
+  },
+  {
+    "id": 345,
+    "jul'hoan_word": "kxàè",
+    "english_word": "have",
+    "afrikaans": ""
+  },
+  {
+    "id": 346,
+    "jul'hoan_word": "kxáícè",
+    "english_word": "first",
+    "afrikaans": ""
+  },
+  {
+    "id": 347,
+    "jul'hoan_word": "kxóá",
+    "english_word": "look (for), search",
+    "afrikaans": ""
+  },
+  {
+    "id": 348,
+    "jul'hoan_word": "kxóní",
+    "english_word": "fix",
+    "afrikaans": ""
+  },
+  {
+    "id": 349,
+    "jul'hoan_word": "kxúíá",
+    "english_word": "destroy",
+    "afrikaans": ""
+  },
+  {
+    "id": 350,
+    "jul'hoan_word": "mànì",
+    "english_word": "answer",
+    "afrikaans": ""
+  },
+  {
+    "id": 351,
+    "jul'hoan_word": "màrà",
+    "english_word": "but",
+    "afrikaans": ""
+  },
+  {
+    "id": 352,
+    "jul'hoan_word": "màrì",
+    "english_word": "money",
+    "afrikaans": ""
+  },
+  {
+    "id": 353,
+    "jul'hoan_word": "márí",
+    "english_word": "mealie meal",
+    "afrikaans": ""
+  },
+  {
+    "id": 354,
+    "jul'hoan_word": "mí",
+    "english_word": "I, me, my",
+    "afrikaans": ""
+  },
+  {
+    "id": 355,
+    "jul'hoan_word": "mtsá (dual)",
+    "english_word": "we, us, our",
+    "afrikaans": ""
+  },
+  {
+    "id": 356,
+    "jul'hoan_word": "’m",
+    "english_word": "eat",
+    "afrikaans": ""
+  },
+  {
+    "id": 357,
+    "jul'hoan_word": "’msi",
+    "english_word": "food",
+    "afrikaans": ""
+  },
+  {
+    "id": 358,
+    "jul'hoan_word": "mǃá (pl. incl.)",
+    "english_word": "we, us, our",
+    "afrikaans": ""
+  },
+  {
+    "id": 359,
+    "jul'hoan_word": "nàǃ!",
+    "english_word": "give!",
+    "afrikaans": ""
+  },
+  {
+    "id": 360,
+    "jul'hoan_word": "nàùn",
+    "english_word": "do how?, be how?",
+    "afrikaans": ""
+  },
+  {
+    "id": 361,
+    "jul'hoan_word": "nàùn tà’má",
+    "english_word": "how many/much?",
+    "afrikaans": ""
+  },
+  {
+    "id": 362,
+    "jul'hoan_word": "nìn",
+    "english_word": "do how?, be how?",
+    "afrikaans": ""
+  },
+  {
+    "id": 363,
+    "jul'hoan_word": "nǀáí",
+    "english_word": "head",
+    "afrikaans": ""
+  },
+  {
+    "id": 364,
+    "jul'hoan_word": "nǀáí’úá",
+    "english_word": "skull",
+    "afrikaans": ""
+  },
+  {
+    "id": 365,
+    "jul'hoan_word": "nǀàng",
+    "english_word": "raisin(s); so, so that, in order to",
+    "afrikaans": ""
+  },
+  {
+    "id": 366,
+    "jul'hoan_word": "nǀàng (ká) kò",
+    "english_word": "whether",
+    "afrikaans": ""
+  },
+  {
+    "id": 367,
+    "jul'hoan_word": "nǀáng (with sg. subj.)",
+    "english_word": "sit",
+    "afrikaans": ""
+  },
+  {
+    "id": 368,
+    "jul'hoan_word": "nǀángsí",
+    "english_word": "sitting place, seat",
+    "afrikaans": ""
+  },
+  {
+    "id": 369,
+    "jul'hoan_word": "nǀè’é",
+    "english_word": "one",
+    "afrikaans": ""
+  },
+  {
+    "id": 370,
+    "jul'hoan_word": "nǀè’ésí",
+    "english_word": "only",
+    "afrikaans": ""
+  },
+  {
+    "id": 371,
+    "jul'hoan_word": "nǀhuì (with pl. obj.)",
+    "english_word": "take",
+    "afrikaans": ""
+  },
+  {
+    "id": 372,
+    "jul'hoan_word": "nǀóá",
+    "english_word": "cook",
+    "afrikaans": ""
+  },
+  {
+    "id": 373,
+    "jul'hoan_word": "nǀoàhn",
+    "english_word": "cat",
+    "afrikaans": ""
+  },
+  {
+    "id": 374,
+    "jul'hoan_word": "nǀom",
+    "english_word": "medicine",
+    "afrikaans": ""
+  },
+  {
+    "id": 375,
+    "jul'hoan_word": "nǀomkxàò",
+    "english_word": "doctor",
+    "afrikaans": ""
+  },
+  {
+    "id": 376,
+    "jul'hoan_word": "nǀomtjùà",
+    "english_word": "hospital",
+    "afrikaans": ""
+  },
+  {
+    "id": 377,
+    "jul'hoan_word": "nǀúí",
+    "english_word": "a certain, another",
+    "afrikaans": ""
+  },
+  {
+    "id": 378,
+    "jul'hoan_word": "nǂáí",
+    "english_word": "cause, make",
+    "afrikaans": ""
+  },
+  {
+    "id": 379,
+    "jul'hoan_word": "nǂáí gǀaoha",
+    "english_word": "strengthen, make strong",
+    "afrikaans": ""
+  },
+  {
+    "id": 380,
+    "jul'hoan_word": "nǂáí nǃa’àn",
+    "english_word": "enlarge, make big",
+    "afrikaans": ""
+  },
+  {
+    "id": 381,
+    "jul'hoan_word": "nnǂáí nǃo’òà",
+    "english_word": "cause to be quick",
+    "afrikaans": ""
+  },
+  {
+    "id": 382,
+    "jul'hoan_word": "nǂáí ǃòmà",
+    "english_word": "shorten, make short",
+    "afrikaans": ""
+  },
+  {
+    "id": 383,
+    "jul'hoan_word": "nǂáú",
+    "english_word": "head (v.)",
+    "afrikaans": ""
+  },
+  {
+    "id": 384,
+    "jul'hoan_word": "nǂàq’ú",
+    "english_word": "hit",
+    "afrikaans": ""
+  },
+  {
+    "id": 385,
+    "jul'hoan_word": "nǂàq’ú ǃàò",
+    "english_word": "knock over",
+    "afrikaans": ""
+  },
+  {
+    "id": 386,
+    "jul'hoan_word": "nǂà’m",
+    "english_word": "hit",
+    "afrikaans": ""
+  },
+  {
+    "id": 387,
+    "jul'hoan_word": "nǂhaò",
+    "english_word": "throw",
+    "afrikaans": ""
+  },
+  {
+    "id": 388,
+    "jul'hoan_word": "nǂhaoh",
+    "english_word": "walk",
+    "afrikaans": ""
+  },
+  {
+    "id": 389,
+    "jul'hoan_word": "nǂhaoh nǁhumì",
+    "english_word": "walk around",
+    "afrikaans": ""
+  },
+  {
+    "id": 390,
+    "jul'hoan_word": "nǂhao (with sg. subj.)",
+    "english_word": "et, fall, land, go down",
+    "afrikaans": ""
+  },
+  {
+    "id": 391,
+    "jul'hoan_word": "nǃàmà",
+    "english_word": "road",
+    "afrikaans": ""
+  },
+  {
+    "id": 392,
+    "jul'hoan_word": "nǃàn",
+    "english_word": "be lost",
+    "afrikaans": ""
+  },
+  {
+    "id": 393,
+    "jul'hoan_word": "nǃàng",
+    "english_word": "eland",
+    "afrikaans": ""
+  },
+  {
+    "id": 394,
+    "jul'hoan_word": "nǃáng",
+    "english_word": "innards, inside; in",
+    "afrikaans": ""
+  },
+  {
+    "id": 395,
+    "jul'hoan_word": "nǃáng (with sg. obj.)",
+    "english_word": "put down",
+    "afrikaans": ""
+  },
+  {
+    "id": 396,
+    "jul'hoan_word": "nǃànì",
+    "english_word": "three",
+    "afrikaans": ""
+  },
+  {
+    "id": 397,
+    "jul'hoan_word": "nǃarih",
+    "english_word": "drive, ride",
+    "afrikaans": ""
+  },
+  {
+    "id": 398,
+    "jul'hoan_word": "nǃarihkxàò",
+    "english_word": "driver",
+    "afrikaans": ""
+  },
+  {
+    "id": 399,
+    "jul'hoan_word": "nǃaròh",
+    "english_word": "teach",
+    "afrikaans": ""
+  },
+  {
+    "id": 400,
+    "jul'hoan_word": "nǃarohkxàò",
+    "english_word": "teacher",
+    "afrikaans": ""
+  },
+  {
+    "id": 401,
+    "jul'hoan_word": "nǃáú",
+    "english_word": "go over,",
+    "afrikaans": ""
+  },
+  {
+    "id": 402,
+    "jul'hoan_word": "nǃà’án, pl. ǃàè(ǃàè)",
+    "english_word": "be old, adult, grown-up",
+    "afrikaans": ""
+  },
+  {
+    "id": 403,
+    "jul'hoan_word": "nǃá’àn",
+    "english_word": "be big",
+    "afrikaans": ""
+  },
+  {
+    "id": 404,
+    "jul'hoan_word": "nǃhaì",
+    "english_word": "lion(s)",
+    "afrikaans": ""
+  },
+  {
+    "id": 405,
+    "jul'hoan_word": "nǃhoan",
+    "english_word": "kudu",
+    "afrikaans": ""
+  },
+  {
+    "id": 406,
+    "jul'hoan_word": "nǃhomà",
+    "english_word": "tomorrow",
+    "afrikaans": ""
+  },
+  {
+    "id": 407,
+    "jul'hoan_word": "ǃhú",
+    "english_word": "kraal",
+    "afrikaans": ""
+  },
+  {
+    "id": 408,
+    "jul'hoan_word": "nǃoh",
+    "english_word": "orange",
+    "afrikaans": ""
+  },
+  {
+    "id": 409,
+    "jul'hoan_word": "nǃòm",
+    "english_word": "stone",
+    "afrikaans": ""
+  },
+  {
+    "id": 410,
+    "jul'hoan_word": "nǃòm",
+    "english_word": "fly (v.)",
+    "afrikaans": ""
+  },
+  {
+    "id": 411,
+    "jul'hoan_word": "nǃòm nǃáú",
+    "english_word": "fly over",
+    "afrikaans": ""
+  },
+  {
+    "id": 412,
+    "jul'hoan_word": "nǃóm",
+    "english_word": "be ripe",
+    "afrikaans": ""
+  },
+  {
+    "id": 413,
+    "jul'hoan_word": "nǃó(mà)",
+    "english_word": "(in the) morning",
+    "afrikaans": ""
+  },
+  {
+    "id": 414,
+    "jul'hoan_word": "nǃòó",
+    "english_word": "wish",
+    "afrikaans": ""
+  },
+  {
+    "id": 415,
+    "jul'hoan_word": "nǃóré",
+    "english_word": "area, territory",
+    "afrikaans": ""
+  },
+  {
+    "id": 416,
+    "jul'hoan_word": "nǃórékxàò",
+    "english_word": "inhabitant of a territory",
+    "afrikaans": ""
+  },
+  {
+    "id": 417,
+    "jul'hoan_word": "nǃóréǂ’ànsàràsí",
+    "english_word": "border",
+    "afrikaans": ""
+  },
+  {
+    "id": 418,
+    "jul'hoan_word": "nǃo’ò",
+    "english_word": "be fast",
+    "afrikaans": ""
+  },
+  {
+    "id": 419,
+    "jul'hoan_word": "nǃúí",
+    "english_word": "moon, month",
+    "afrikaans": ""
+  },
+  {
+    "id": 420,
+    "jul'hoan_word": "nǃúán (with sg. subj.)",
+    "english_word": "stand by/at",
+    "afrikaans": ""
+  },
+  {
+    "id": 421,
+    "jul'hoan_word": "nǃún (with sg. subj.)",
+    "english_word": "stand",
+    "afrikaans": ""
+  },
+  {
+    "id": 422,
+    "jul'hoan_word": "nǃúnsí",
+    "english_word": "standing place, position",
+    "afrikaans": ""
+  },
+  {
+    "id": 423,
+    "jul'hoan_word": "nǁá",
+    "english_word": "mean",
+    "afrikaans": ""
+  },
+  {
+    "id": 424,
+    "jul'hoan_word": "nǁah",
+    "english_word": "leave",
+    "afrikaans": ""
+  },
+  {
+    "id": 425,
+    "jul'hoan_word": "nǁaqè",
+    "english_word": "men",
+    "afrikaans": ""
+  },
+  {
+    "id": 426,
+    "jul'hoan_word": "nǁaq’àrà",
+    "english_word": "read",
+    "afrikaans": ""
+  },
+  {
+    "id": 427,
+    "jul'hoan_word": "nǁaúǃ!",
+    "english_word": "don’t!",
+    "afrikaans": ""
+  },
+  {
+    "id": 428,
+    "jul'hoan_word": "nǁhumì",
+    "english_word": "go around, surround",
+    "afrikaans": ""
+  },
+  {
+    "id": 429,
+    "jul'hoan_word": "nǁhurì",
+    "english_word": "go under(neath)",
+    "afrikaans": ""
+  },
+  {
+    "id": 430,
+    "jul'hoan_word": "nǁurì",
+    "english_word": "try",
+    "afrikaans": ""
+  },
+  {
+    "id": 431,
+    "jul'hoan_word": "ó",
+    "english_word": "be",
+    "afrikaans": ""
+  },
+  {
+    "id": 432,
+    "jul'hoan_word": "òò",
+    "english_word": "do (so/thus), act",
+    "afrikaans": ""
+  },
+  {
+    "id": 433,
+    "jul'hoan_word": "òòsí",
+    "english_word": "custom",
+    "afrikaans": ""
+  },
+  {
+    "id": 434,
+    "jul'hoan_word": "pàrà",
+    "english_word": "pole",
+    "afrikaans": ""
+  },
+  {
+    "id": 435,
+    "jul'hoan_word": "sà (dual)",
+    "english_word": "they, them, their",
+    "afrikaans": ""
+  },
+  {
+    "id": 436,
+    "jul'hoan_word": "sé",
+    "english_word": "look",
+    "afrikaans": ""
+  },
+  {
+    "id": 437,
+    "jul'hoan_word": "sé ǂaeha",
+    "english_word": "look down at",
+    "afrikaans": ""
+  },
+  {
+    "id": 438,
+    "jul'hoan_word": "sé ǃ’ààn",
+    "english_word": "look up at",
+    "afrikaans": ""
+  },
+  {
+    "id": 439,
+    "jul'hoan_word": "sì’á (pl.)",
+    "english_word": "they, them, their",
+    "afrikaans": ""
+  },
+  {
+    "id": 440,
+    "jul'hoan_word": "skoolhoof",
+    "english_word": "headmaster",
+    "afrikaans": ""
+  },
+  {
+    "id": 441,
+    "jul'hoan_word": "skóré",
+    "english_word": "school",
+    "afrikaans": ""
+  },
+  {
+    "id": 442,
+    "jul'hoan_word": "sòàn",
+    "english_word": "be easy",
+    "afrikaans": ""
+  },
+  {
+    "id": 443,
+    "jul'hoan_word": "sonda",
+    "english_word": "soldier",
+    "afrikaans": ""
+  },
+  {
+    "id": 444,
+    "jul'hoan_word": "spírí",
+    "english_word": "mirror",
+    "afrikaans": ""
+  },
+  {
+    "id": 445,
+    "jul'hoan_word": "tafere",
+    "english_word": "table",
+    "afrikaans": ""
+  },
+  {
+    "id": 446,
+    "jul'hoan_word": "tàm",
+    "english_word": "not know",
+    "afrikaans": ""
+  },
+  {
+    "id": 447,
+    "jul'hoan_word": "Tamah",
+    "english_word": "Herero",
+    "afrikaans": ""
+  },
+  {
+    "id": 448,
+    "jul'hoan_word": "tání tsí",
+    "english_word": "carry",
+    "afrikaans": ""
+  },
+  {
+    "id": 449,
+    "jul'hoan_word": "tání ú",
+    "english_word": "bring",
+    "afrikaans": ""
+  },
+  {
+    "id": 450,
+    "jul'hoan_word": "taqè",
+    "english_word": "take",
+    "afrikaans": ""
+  },
+  {
+    "id": 451,
+    "jul'hoan_word": "tàqm (with pl. subj.)",
+    "english_word": "mother",
+    "afrikaans": ""
+  },
+  {
+    "id": 452,
+    "jul'hoan_word": "tà’m",
+    "english_word": "fall, land, go down",
+    "afrikaans": ""
+  },
+  {
+    "id": 453,
+    "jul'hoan_word": "tà’m tsà’á",
+    "english_word": "feel",
+    "afrikaans": ""
+  },
+  {
+    "id": 454,
+    "jul'hoan_word": "tchì",
+    "english_word": "touch",
+    "afrikaans": ""
+  },
+  {
+    "id": 455,
+    "jul'hoan_word": "tchòàtchòà",
+    "english_word": "start (v.)",
+    "afrikaans": ""
+  },
+  {
+    "id": 456,
+    "jul'hoan_word": "tcí",
+    "english_word": "thing",
+    "afrikaans": ""
+  },
+  {
+    "id": 457,
+    "jul'hoan_word": "tcíà nè ré?",
+    "english_word": "what kind of?",
+    "afrikaans": ""
+  },
+  {
+    "id": 458,
+    "jul'hoan_word": "tcxò",
+    "english_word": "slaughter",
+    "afrikaans": ""
+  },
+  {
+    "id": 459,
+    "jul'hoan_word": "tè",
+    "english_word": "and, but",
+    "afrikaans": ""
+  },
+  {
+    "id": 460,
+    "jul'hoan_word": "tè nǁhaa",
+    "english_word": "and only then",
+    "afrikaans": ""
+  },
+  {
+    "id": 461,
+    "jul'hoan_word": "tí",
+    "english_word": "tea",
+    "afrikaans": ""
+  },
+  {
+    "id": 462,
+    "jul'hoan_word": "tjù",
+    "english_word": "house",
+    "afrikaans": ""
+  },
+  {
+    "id": 463,
+    "jul'hoan_word": "Tjùmǃkúí",
+    "english_word": "Tsumkwe",
+    "afrikaans": ""
+  },
+  {
+    "id": 464,
+    "jul'hoan_word": "tjùǀhó",
+    "english_word": "village",
+    "afrikaans": ""
+  },
+  {
+    "id": 465,
+    "jul'hoan_word": "tkúrí",
+    "english_word": "peer over/around",
+    "afrikaans": ""
+  },
+  {
+    "id": 466,
+    "jul'hoan_word": "tkúrí sé",
+    "english_word": "peer at",
+    "afrikaans": ""
+  },
+  {
+    "id": 467,
+    "jul'hoan_word": "tòàndísí",
+    "english_word": "lastly, eventually",
+    "afrikaans": ""
+  },
+  {
+    "id": 468,
+    "jul'hoan_word": "tòànsí",
+    "english_word": "lastly, eventually",
+    "afrikaans": ""
+  },
+  {
+    "id": 469,
+    "jul'hoan_word": "tòrà",
+    "english_word": "shop",
+    "afrikaans": ""
+  },
+  {
+    "id": 470,
+    "jul'hoan_word": "to’à",
+    "english_word": "that, those",
+    "afrikaans": ""
+  },
+  {
+    "id": 471,
+    "jul'hoan_word": "tò’m",
+    "english_word": "be near to, be close to",
+    "afrikaans": ""
+  },
+  {
+    "id": 472,
+    "jul'hoan_word": "tsán",
+    "english_word": "two",
+    "afrikaans": ""
+  },
+  {
+    "id": 473,
+    "jul'hoan_word": "tsánkútsán",
+    "english_word": "four",
+    "afrikaans": ""
+  },
+  {
+    "id": 474,
+    "jul'hoan_word": "tsàqn",
+    "english_word": "two",
+    "afrikaans": ""
+  },
+  {
+    "id": 475,
+    "jul'hoan_word": "tsáú (with sg. subj.)",
+    "english_word": "rise",
+    "afrikaans": ""
+  },
+  {
+    "id": 476,
+    "jul'hoan_word": "tsà’á",
+    "english_word": "hear, understand, sense",
+    "afrikaans": ""
+  },
+  {
+    "id": 477,
+    "jul'hoan_word": "tshín",
+    "english_word": "(younger) brother",
+    "afrikaans": ""
+  },
+  {
+    "id": 478,
+    "jul'hoan_word": "tsí",
+    "english_word": "come (here)",
+    "afrikaans": ""
+  },
+  {
+    "id": 479,
+    "jul'hoan_word": "tsí gǀàèà",
+    "english_word": "arrive at",
+    "afrikaans": ""
+  },
+  {
+    "id": 480,
+    "jul'hoan_word": "tsí gǃáá",
+    "english_word": "come back/home to",
+    "afrikaans": ""
+  },
+  {
+    "id": 481,
+    "jul'hoan_word": "tsí tò’má",
+    "english_word": "come near to",
+    "afrikaans": ""
+  },
+  {
+    "id": 482,
+    "jul'hoan_word": "tsítsà’á",
+    "english_word": "question, ask",
+    "afrikaans": ""
+  },
+  {
+    "id": 483,
+    "jul'hoan_word": "tsí ǂaeha",
+    "english_word": "come down to",
+    "afrikaans": ""
+  },
+  {
+    "id": 484,
+    "jul'hoan_word": "tsú",
+    "english_word": "uncle",
+    "afrikaans": ""
+  },
+  {
+    "id": 485,
+    "jul'hoan_word": "tuìh (with pl. subj.)",
+    "english_word": "rise",
+    "afrikaans": ""
+  },
+  {
+    "id": 486,
+    "jul'hoan_word": "txá",
+    "english_word": "shoot",
+    "afrikaans": ""
+  },
+  {
+    "id": 487,
+    "jul'hoan_word": "tzà",
+    "english_word": "sleep",
+    "afrikaans": ""
+  },
+  {
+    "id": 488,
+    "jul'hoan_word": "tzàmà",
+    "english_word": "bird(s)",
+    "afrikaans": ""
+  },
+  {
+    "id": 489,
+    "jul'hoan_word": "tzàsí",
+    "english_word": "sleeping-place",
+    "afrikaans": ""
+  },
+  {
+    "id": 490,
+    "jul'hoan_word": "tzè",
+    "english_word": "little",
+    "afrikaans": ""
+  },
+  {
+    "id": 491,
+    "jul'hoan_word": "tzí",
+    "english_word": "open, outside, veld; out, around",
+    "afrikaans": ""
+  },
+  {
+    "id": 492,
+    "jul'hoan_word": "tzún",
+    "english_word": "nose",
+    "afrikaans": ""
+  },
+  {
+    "id": 493,
+    "jul'hoan_word": "ú",
+    "english_word": "go (away)",
+    "afrikaans": ""
+  },
+  {
+    "id": 494,
+    "jul'hoan_word": "ú ǂxáán",
+    "english_word": "go far from",
+    "afrikaans": ""
+  },
+  {
+    "id": 495,
+    "jul'hoan_word": "útò",
+    "english_word": "car",
+    "afrikaans": ""
+  },
+  {
+    "id": 496,
+    "jul'hoan_word": "waqnhè, waqnkè",
+    "english_word": "each, every",
+    "afrikaans": ""
+  },
+  {
+    "id": 497,
+    "jul'hoan_word": "waqnsì",
+    "english_word": "all, the whole",
+    "afrikaans": ""
+  },
+  {
+    "id": 498,
+    "jul'hoan_word": "wècè(sì)",
+    "english_word": "all, the whole",
+    "afrikaans": ""
+  },
+  {
+    "id": 499,
+    "jul'hoan_word": "xáí (with pl. obj.)",
+    "english_word": "break, snap",
+    "afrikaans": ""
+  },
+  {
+    "id": 500,
+    "jul'hoan_word": "xarao",
+    "english_word": "spade",
+    "afrikaans": ""
+  },
+  {
+    "id": 501,
+    "jul'hoan_word": "zà",
+    "english_word": "pour",
+    "afrikaans": ""
+  },
+  {
+    "id": 502,
+    "jul'hoan_word": "zà ǀ’ú",
+    "english_word": "pour in",
+    "afrikaans": ""
+  },
+  {
+    "id": 503,
+    "jul'hoan_word": "zàqí",
+    "english_word": "new",
+    "afrikaans": ""
+  },
+  {
+    "id": 504,
+    "jul'hoan_word": "zàsí",
+    "english_word": "pouring place, fuel station",
+    "afrikaans": ""
+  },
+  {
+    "id": 505,
+    "jul'hoan_word": "zé",
+    "english_word": "new",
+    "afrikaans": ""
+  },
+  {
+    "id": 506,
+    "jul'hoan_word": "zo",
+    "english_word": "sugar",
+    "afrikaans": ""
+  },
+  {
+    "id": 507,
+    "jul'hoan_word": "ǀám",
+    "english_word": "day",
+    "afrikaans": ""
+  },
+  {
+    "id": 508,
+    "jul'hoan_word": "ǀámà hè",
+    "english_word": "today",
+    "afrikaans": ""
+  },
+  {
+    "id": 509,
+    "jul'hoan_word": "ǀàò",
+    "english_word": "buffalo",
+    "afrikaans": ""
+  },
+  {
+    "id": 510,
+    "jul'hoan_word": "ǀháó",
+    "english_word": "bag",
+    "afrikaans": ""
+  },
+  {
+    "id": 511,
+    "jul'hoan_word": "ǀhó",
+    "english_word": "face, (flat) surface; on",
+    "afrikaans": ""
+  },
+  {
+    "id": 512,
+    "jul'hoan_word": "ǀkàè",
+    "english_word": "be sick",
+    "afrikaans": ""
+  },
+  {
+    "id": 513,
+    "jul'hoan_word": "ǀkàù",
+    "english_word": "be bad",
+    "afrikaans": ""
+  },
+  {
+    "id": 514,
+    "jul'hoan_word": "ǀkúrí",
+    "english_word": "be cunning",
+    "afrikaans": ""
+  },
+  {
+    "id": 515,
+    "jul'hoan_word": "ǀkúrí sé",
+    "english_word": "spy on",
+    "afrikaans": ""
+  },
+  {
+    "id": 516,
+    "jul'hoan_word": "ǀòrè",
+    "english_word": "write, writing",
+    "afrikaans": ""
+  },
+  {
+    "id": 517,
+    "jul'hoan_word": "ǀòrèkxàò",
+    "english_word": "writer",
+    "afrikaans": ""
+  },
+  {
+    "id": 518,
+    "jul'hoan_word": "ǀòrèsí",
+    "english_word": "orthography",
+    "afrikaans": ""
+  },
+  {
+    "id": 519,
+    "jul'hoan_word": "ǀú",
+    "english_word": "never",
+    "afrikaans": ""
+  },
+  {
+    "id": 520,
+    "jul'hoan_word": "ǀxòà",
+    "english_word": "light (fire)",
+    "afrikaans": ""
+  },
+  {
+    "id": 521,
+    "jul'hoan_word": "ǀ’àè, pl. ǀ’àèsì",
+    "english_word": "self, selves",
+    "afrikaans": ""
+  },
+  {
+    "id": 522,
+    "jul'hoan_word": "ǀ’áí",
+    "english_word": "axe",
+    "afrikaans": ""
+  },
+  {
+    "id": 523,
+    "jul'hoan_word": "ǀ’àn",
+    "english_word": "give",
+    "afrikaans": ""
+  },
+  {
+    "id": 524,
+    "jul'hoan_word": "ǀ’àn ce",
+    "english_word": "give back",
+    "afrikaans": ""
+  },
+  {
+    "id": 525,
+    "jul'hoan_word": "ǀ’hoàn",
+    "english_word": "real, actual, true",
+    "afrikaans": ""
+  },
+  {
+    "id": 526,
+    "jul'hoan_word": "ǀ’hóm",
+    "english_word": "be pretty",
+    "afrikaans": ""
+  },
+  {
+    "id": 527,
+    "jul'hoan_word": "ǀ’hún",
+    "english_word": "white person",
+    "afrikaans": ""
+  },
+  {
+    "id": 528,
+    "jul'hoan_word": "ǀ’hùrù",
+    "english_word": "be punctured",
+    "afrikaans": ""
+  },
+  {
+    "id": 529,
+    "jul'hoan_word": "ǀ’ú",
+    "english_word": "put in, insert",
+    "afrikaans": ""
+  },
+  {
+    "id": 530,
+    "jul'hoan_word": "ǀ’ùrì",
+    "english_word": "bicycle",
+    "afrikaans": ""
+  },
+  {
+    "id": 531,
+    "jul'hoan_word": "ǂàbà(tá)-nǃáng",
+    "english_word": "under",
+    "afrikaans": ""
+  },
+  {
+    "id": 532,
+    "jul'hoan_word": "ǂAbè",
+    "english_word": "Tswana",
+    "afrikaans": ""
+  },
+  {
+    "id": 533,
+    "jul'hoan_word": "ǂaeh",
+    "english_word": "go down",
+    "afrikaans": ""
+  },
+  {
+    "id": 534,
+    "jul'hoan_word": "ǂ’áí",
+    "english_word": "push away",
+    "afrikaans": ""
+  },
+  {
+    "id": 535,
+    "jul'hoan_word": "ǂ’áí gǁxún",
+    "english_word": "push down",
+    "afrikaans": ""
+  },
+  {
+    "id": 536,
+    "jul'hoan_word": "ǂháí",
+    "english_word": "be many/much",
+    "afrikaans": ""
+  },
+  {
+    "id": 537,
+    "jul'hoan_word": "ǂháíá",
+    "english_word": "majority, most of",
+    "afrikaans": ""
+  },
+  {
+    "id": 538,
+    "jul'hoan_word": "ǂhòà",
+    "english_word": "cross",
+    "afrikaans": ""
+  },
+  {
+    "id": 539,
+    "jul'hoan_word": "ǂxáán",
+    "english_word": "be far from",
+    "afrikaans": ""
+  },
+  {
+    "id": 540,
+    "jul'hoan_word": "ǂxanù",
+    "english_word": "book, letter",
+    "afrikaans": ""
+  },
+  {
+    "id": 541,
+    "jul'hoan_word": "ǂxùrù",
+    "english_word": "climb",
+    "afrikaans": ""
+  },
+  {
+    "id": 542,
+    "jul'hoan_word": "ǂ’ábí",
+    "english_word": "lift up",
+    "afrikaans": ""
+  },
+  {
+    "id": 543,
+    "jul'hoan_word": "ǂ’ábí sé",
+    "english_word": "look under",
+    "afrikaans": ""
+  },
+  {
+    "id": 544,
+    "jul'hoan_word": "ǂ’àn",
+    "english_word": "do first (before anyone else)",
+    "afrikaans": ""
+  },
+  {
+    "id": 545,
+    "jul'hoan_word": "ǂ’àng",
+    "english_word": "old, worn-out",
+    "afrikaans": ""
+  },
+  {
+    "id": 546,
+    "jul'hoan_word": "ǂ’áng",
+    "english_word": "think",
+    "afrikaans": ""
+  },
+  {
+    "id": 547,
+    "jul'hoan_word": "ǂ’àrì",
+    "english_word": "forget",
+    "afrikaans": ""
+  },
+  {
+    "id": 548,
+    "jul'hoan_word": "ǂ’àùn",
+    "english_word": "be appropriate/necessary, must",
+    "afrikaans": ""
+  },
+  {
+    "id": 549,
+    "jul'hoan_word": "ǂ’hànù",
+    "english_word": "knife",
+    "afrikaans": ""
+  },
+  {
+    "id": 550,
+    "jul'hoan_word": "ǂ’hanù",
+    "english_word": "government",
+    "afrikaans": ""
+  },
+  {
+    "id": 551,
+    "jul'hoan_word": "ǃaàh",
+    "english_word": "run",
+    "afrikaans": ""
+  },
+  {
+    "id": 552,
+    "jul'hoan_word": "ǃaàh nǁhurì",
+    "english_word": "run under",
+    "afrikaans": ""
+  },
+  {
+    "id": 553,
+    "jul'hoan_word": "ǃaàh ǁxám",
+    "english_word": "run after",
+    "afrikaans": ""
+  },
+  {
+    "id": 554,
+    "jul'hoan_word": "ǃáí (with sg. subj.)",
+    "english_word": "die",
+    "afrikaans": ""
+  },
+  {
+    "id": 555,
+    "jul'hoan_word": "ǃaìhàn",
+    "english_word": "bush",
+    "afrikaans": ""
+  },
+  {
+    "id": 556,
+    "jul'hoan_word": "ǃaìhn",
+    "english_word": "tree, stick",
+    "afrikaans": ""
+  },
+  {
+    "id": 557,
+    "jul'hoan_word": "ǃàò",
+    "english_word": "fall (over)",
+    "afrikaans": ""
+  },
+  {
+    "id": 558,
+    "jul'hoan_word": "ǃàò (with pl. subj.)",
+    "english_word": "die, be dead",
+    "afrikaans": ""
+  },
+  {
+    "id": 559,
+    "jul'hoan_word": "ǃaòh",
+    "english_word": "yard",
+    "afrikaans": ""
+  },
+  {
+    "id": 560,
+    "jul'hoan_word": "ǃaqè",
+    "english_word": "hunt",
+    "afrikaans": ""
+  },
+  {
+    "id": 561,
+    "jul'hoan_word": "ǃaqèkxàò",
+    "english_word": "hunter",
+    "afrikaans": ""
+  },
+  {
+    "id": 562,
+    "jul'hoan_word": "ǃhá",
+    "english_word": "animal, meat",
+    "afrikaans": ""
+  },
+  {
+    "id": 563,
+    "jul'hoan_word": "ǃháí",
+    "english_word": "wait",
+    "afrikaans": ""
+  },
+  {
+    "id": 564,
+    "jul'hoan_word": "ǃháísí",
+    "english_word": "waiting place, bus stop",
+    "afrikaans": ""
+  },
+  {
+    "id": 565,
+    "jul'hoan_word": "ǃhárá",
+    "english_word": "burst, be ripped",
+    "afrikaans": ""
+  },
+  {
+    "id": 566,
+    "jul'hoan_word": "ǃháǃ’úínkxàò",
+    "english_word": "nature-conservator",
+    "afrikaans": ""
+  },
+  {
+    "id": 567,
+    "jul'hoan_word": "ǃhún (with sg. obj.)",
+    "english_word": "kill",
+    "afrikaans": ""
+  },
+  {
+    "id": 568,
+    "jul'hoan_word": "ǃká",
+    "english_word": "heart; in (the midst of)",
+    "afrikaans": ""
+  },
+  {
+    "id": 569,
+    "jul'hoan_word": "ǃó",
+    "english_word": "older brother",
+    "afrikaans": ""
+  },
+  {
+    "id": 570,
+    "jul'hoan_word": "ǃóá",
+    "english_word": "tell",
+    "afrikaans": ""
+  },
+  {
+    "id": 571,
+    "jul'hoan_word": "ǃóm",
+    "english_word": "leg, wheel, tyre",
+    "afrikaans": ""
+  },
+  {
+    "id": 572,
+    "jul'hoan_word": "ǃòmà",
+    "english_word": "be short",
+    "afrikaans": ""
+  },
+  {
+    "id": 573,
+    "jul'hoan_word": "ǃò’á (with sg. obj.)",
+    "english_word": "break, snap",
+    "afrikaans": ""
+  },
+  {
+    "id": 574,
+    "jul'hoan_word": "ǃúí",
+    "english_word": "older sister",
+    "afrikaans": ""
+  },
+  {
+    "id": 575,
+    "jul'hoan_word": "ǃú-nǃa’àn",
+    "english_word": "grandfather",
+    "afrikaans": ""
+  },
+  {
+    "id": 576,
+    "jul'hoan_word": "ǃxàrè",
+    "english_word": "some",
+    "afrikaans": ""
+  },
+  {
+    "id": 577,
+    "jul'hoan_word": "ǃxó (sg./pl.)",
+    "english_word": "elephant(s)",
+    "afrikaans": ""
+  },
+  {
+    "id": 578,
+    "jul'hoan_word": "ǃxóáná",
+    "english_word": "live at, reside, inhabit",
+    "afrikaans": ""
+  },
+  {
+    "id": 579,
+    "jul'hoan_word": "ǃxómà, pl. ǃxómhí",
+    "english_word": "little elephant, elephant calf",
+    "afrikaans": ""
+  },
+  {
+    "id": 580,
+    "jul'hoan_word": "ǃxúí",
+    "english_word": "tail",
+    "afrikaans": ""
+  },
+  {
+    "id": 581,
+    "jul'hoan_word": "ǃ’ààn",
+    "english_word": "go up",
+    "afrikaans": ""
+  },
+  {
+    "id": 582,
+    "jul'hoan_word": "ǃ’àm",
+    "english_word": "put together, assemble",
+    "afrikaans": ""
+  },
+  {
+    "id": 583,
+    "jul'hoan_word": "ǃ’àn",
+    "english_word": "old, worn-out; go up",
+    "afrikaans": ""
+  },
+  {
+    "id": 584,
+    "jul'hoan_word": "ǃ’árú",
+    "english_word": "roar",
+    "afrikaans": ""
+  },
+  {
+    "id": 585,
+    "jul'hoan_word": "ǃ’àù",
+    "english_word": "call",
+    "afrikaans": ""
+  },
+  {
+    "id": 586,
+    "jul'hoan_word": "ǃ’àù kxóá",
+    "english_word": "look for by calling",
+    "afrikaans": ""
+  },
+  {
+    "id": 587,
+    "jul'hoan_word": "ǃ’hàn",
+    "english_word": "know",
+    "afrikaans": ""
+  },
+  {
+    "id": 588,
+    "jul'hoan_word": "ǃ’hán",
+    "english_word": "son",
+    "afrikaans": ""
+  },
+  {
+    "id": 589,
+    "jul'hoan_word": "ǃ’hoàn, pl. nǁaqè",
+    "english_word": "man, husband",
+    "afrikaans": ""
+  },
+  {
+    "id": 590,
+    "jul'hoan_word": "ǃ’hoànma",
+    "english_word": "boy",
+    "afrikaans": ""
+  },
+  {
+    "id": 591,
+    "jul'hoan_word": "ǃ’óán (with pl. obj.)",
+    "english_word": "kill",
+    "afrikaans": ""
+  },
+  {
+    "id": 592,
+    "jul'hoan_word": "ǃ’oahn",
+    "english_word": "open",
+    "afrikaans": ""
+  },
+  {
+    "id": 593,
+    "jul'hoan_word": "ǃ’óm",
+    "english_word": "side (of the body); beside, next to",
+    "afrikaans": ""
+  },
+  {
+    "id": 594,
+    "jul'hoan_word": "ǃ’ó-nǃáng",
+    "english_word": "behind, at the back of",
+    "afrikaans": ""
+  },
+  {
+    "id": 595,
+    "jul'hoan_word": "ǃ’ú",
+    "english_word": "bone",
+    "afrikaans": ""
+  },
+  {
+    "id": 596,
+    "jul'hoan_word": "ǁàè",
+    "english_word": "hold, keep, carry",
+    "afrikaans": ""
+  },
+  {
+    "id": 597,
+    "jul'hoan_word": "ǁàè ǃhárá",
+    "english_word": "start (a car)",
+    "afrikaans": ""
+  },
+  {
+    "id": 598,
+    "jul'hoan_word": "ǁàè ǁaq’ìn",
+    "english_word": "tear",
+    "afrikaans": ""
+  },
+  {
+    "id": 599,
+    "jul'hoan_word": "ǁah",
+    "english_word": "hat",
+    "afrikaans": ""
+  },
+  {
+    "id": 600,
+    "jul'hoan_word": "ǁàmà",
+    "english_word": "come from, do afterwards, do then,do next, appear",
+    "afrikaans": ""
+  },
+  {
+    "id": 601,
+    "jul'hoan_word": "ǁàq’ìn",
+    "english_word": "become torn",
+    "afrikaans": ""
+  },
+  {
+    "id": 602,
+    "jul'hoan_word": "ǁà’íkè",
+    "english_word": "now, today, nowadays",
+    "afrikaans": ""
+  },
+  {
+    "id": 603,
+    "jul'hoan_word": "ǁháí",
+    "english_word": "pull, smoke, smoking",
+    "afrikaans": ""
+  },
+  {
+    "id": 604,
+    "jul'hoan_word": "ǁhàm",
+    "english_word": "go right through",
+    "afrikaans": ""
+  },
+  {
+    "id": 605,
+    "jul'hoan_word": "ǁká",
+    "english_word": "wash",
+    "afrikaans": ""
+  },
+  {
+    "id": 606,
+    "jul'hoan_word": "ǁkáé",
+    "english_word": "together",
+    "afrikaans": ""
+  },
+  {
+    "id": 607,
+    "jul'hoan_word": "ǁkòà",
+    "english_word": "send",
+    "afrikaans": ""
+  },
+  {
+    "id": 608,
+    "jul'hoan_word": "ǁkòà",
+    "english_word": "work",
+    "afrikaans": ""
+  },
+  {
+    "id": 609,
+    "jul'hoan_word": "ǁkòà ú",
+    "english_word": "send (away)",
+    "afrikaans": ""
+  },
+  {
+    "id": 610,
+    "jul'hoan_word": "ǁoeh",
+    "english_word": "in contrast",
+    "afrikaans": ""
+  },
+  {
+    "id": 611,
+    "jul'hoan_word": "ǁohm",
+    "english_word": "chop",
+    "afrikaans": ""
+  },
+  {
+    "id": 612,
+    "jul'hoan_word": "ǁú",
+    "english_word": "hang",
+    "afrikaans": ""
+  },
+  {
+    "id": 613,
+    "jul'hoan_word": "ǁxàm",
+    "english_word": "accompany, follow",
+    "afrikaans": ""
+  },
+  {
+    "id": 614,
+    "jul'hoan_word": "ǁxàrà",
+    "english_word": "garden",
+    "afrikaans": ""
+  },
+  {
+    "id": 615,
+    "jul'hoan_word": "ǁxàràkxàò",
+    "english_word": "gardener",
+    "afrikaans": ""
+  },
+  {
+    "id": 616,
+    "jul'hoan_word": "ǁxàrì",
+    "english_word": "go through",
+    "afrikaans": ""
+  },
+  {
+    "id": 617,
+    "jul'hoan_word": "ǁxòàsì",
+    "english_word": "always",
+    "afrikaans": ""
+  },
+  {
+    "id": 618,
+    "jul'hoan_word": "ǁxòbákxàm",
+    "english_word": "key",
+    "afrikaans": ""
+  },
+  {
+    "id": 619,
+    "jul'hoan_word": "ǁ’à",
+    "english_word": "so (that), in order to",
+    "afrikaans": ""
+  },
+  {
+    "id": 620,
+    "jul'hoan_word": "ǁ’ààn khòè",
+    "english_word": "fight one another",
+    "afrikaans": ""
+  },
+  {
+    "id": 621,
+    "jul'hoan_word": "ǁ’àbà",
+    "english_word": "step over",
+    "afrikaans": ""
+  },
+  {
+    "id": 622,
+    "jul'hoan_word": "ǁ’àè",
+    "english_word": "heed; time",
+    "afrikaans": ""
+  },
+  {
+    "id": 623,
+    "jul'hoan_word": "ǁ’àì",
+    "english_word": "grass",
+    "afrikaans": ""
+  },
+  {
+    "id": 624,
+    "jul'hoan_word": "ǁ’àkáàhìn",
+    "english_word": "therefore, that’s why",
+    "afrikaans": ""
+  },
+  {
+    "id": 625,
+    "jul'hoan_word": "ǁ’àkòà",
+    "english_word": "there",
+    "afrikaans": ""
+  },
+  {
+    "id": 626,
+    "jul'hoan_word": "ǁ’àkòàhìn",
+    "english_word": "therefore, that’s why",
+    "afrikaans": ""
+  },
+  {
+    "id": 627,
+    "jul'hoan_word": "ǁ’ámá",
+    "english_word": "buy",
+    "afrikaans": ""
+  },
+  {
+    "id": 628,
+    "jul'hoan_word": "ǁ’ámí(á)",
+    "english_word": "centre, middle; between",
+    "afrikaans": ""
+  },
+  {
+    "id": 629,
+    "jul'hoan_word": "ǁ’àn",
+    "english_word": "hurt, be painful, pain",
+    "afrikaans": ""
+  },
+  {
+    "id": 630,
+    "jul'hoan_word": "ǁ’àtcá",
+    "english_word": "that (thing/matter)",
+    "afrikaans": ""
+  },
+  {
+    "id": 631,
+    "jul'hoan_word": "ǁ’hànnǃnáng",
+    "english_word": "on",
+    "afrikaans": ""
+  },
+  {
+    "id": 632,
+    "jul'hoan_word": "ǁ’háú",
+    "english_word": "branch",
+    "afrikaans": ""
+  },
+  {
+    "id": 633,
+    "jul'hoan_word": "ǁ’hùín",
+    "english_word": "be tired",
+    "afrikaans": ""
+  },
+  {
+    "id": 634,
+    "jul'hoan_word": "‡hòm",
+    "english_word": "son-in-law",
+    "afrikaans": ""
+  },
+  {
+    "id": 635,
+    "jul'hoan_word": "‡’òm",
+    "english_word": "baobab",
+    "afrikaans": ""
+  },
+  {
+    "id": 636,
+    "jul'hoan_word": "n‡òm",
+    "english_word": "to make, create",
+    "afrikaans": ""
+  },
+  {
+    "id": 637,
+    "jul'hoan_word": "n‡àì‡àm",
+    "english_word": "spoon",
+    "afrikaans": ""
+  },
+  {
+    "id": 638,
+    "jul'hoan_word": "‡hòànà",
+    "english_word": "stretch out",
+    "afrikaans": ""
+  },
+  {
+    "id": 639,
+    "jul'hoan_word": "‡xú",
+    "english_word": "spread/smear on",
+    "afrikaans": ""
+  },
+  {
+    "id": 640,
+    "jul'hoan_word": "N‡ama",
+    "english_word": "place name",
+    "afrikaans": ""
+  },
+  {
+    "id": 641,
+    "jul'hoan_word": "‡’àngàmà",
+    "english_word": "snake",
+    "afrikaans": ""
+  },
+  {
+    "id": 642,
+    "jul'hoan_word": "‡’ángg‡òà",
+    "english_word": "wild coffee (Bauhnea macrantha)",
+    "afrikaans": ""
+  },
+  {
+    "id": 643,
+    "jul'hoan_word": "‡’áng",
+    "english_word": "think, remember",
+    "afrikaans": ""
+  },
+  {
+    "id": 644,
+    "jul'hoan_word": "‡’ángsì",
+    "english_word": "thoughts, brains",
+    "afrikaans": ""
+  },
+  {
+    "id": 645,
+    "jul'hoan_word": "‡háí",
+    "english_word": "many",
+    "afrikaans": ""
+  },
+  {
+    "id": 646,
+    "jul'hoan_word": "‡oòkàhàán",
+    "english_word": "lilac-breasted roller",
+    "afrikaans": ""
+  },
+  {
+    "id": 647,
+    "jul'hoan_word": "‡xàè",
+    "english_word": "daughter",
+    "afrikaans": ""
+  },
+  {
+    "id": 648,
+    "jul'hoan_word": "‡’ùsì",
+    "english_word": "designs, colors",
+    "afrikaans": ""
+  },
+  {
+    "id": 649,
+    "jul'hoan_word": "‡’áán",
+    "english_word": "smell, odor",
+    "afrikaans": ""
+  },
+  {
+    "id": 650,
+    "jul'hoan_word": "n‡oahn",
+    "english_word": "tell, story, news",
+    "afrikaans": ""
+  },
+  {
+    "id": 651,
+    "jul'hoan_word": "‡’àngsàrà",
+    "english_word": "divide",
+    "afrikaans": ""
+  },
+  {
+    "id": 652,
+    "jul'hoan_word": "‡uhn",
+    "english_word": "star",
+    "afrikaans": ""
+  },
+  {
+    "id": 653,
+    "jul'hoan_word": "‡ó",
+    "english_word": "debt, fault",
+    "afrikaans": ""
+  },
+  {
+    "id": 654,
+    "jul'hoan_word": "‡’àùn",
+    "english_word": "be enough, sufficient, important",
+    "afrikaans": ""
+  },
+  {
+    "id": 655,
+    "jul'hoan_word": "‡xáí",
+    "english_word": "to get up (how are you?)",
+    "afrikaans": ""
+  },
+  {
+    "id": 656,
+    "jul'hoan_word": "‡’ómá nè ré",
+    "english_word": "when",
+    "afrikaans": ""
+  },
+  {
+    "id": 657,
+    "jul'hoan_word": "goàq‡’àn",
+    "english_word": "yesterday",
+    "afrikaans": ""
+  },
+  {
+    "id": 658,
+    "jul'hoan_word": "‡xanù",
+    "english_word": "book, paper",
+    "afrikaans": ""
+  },
+  {
+    "id": 659,
+    "jul'hoan_word": "n!àmà",
+    "english_word": "road",
+    "afrikaans": ""
+  },
+  {
+    "id": 660,
+    "jul'hoan_word": "!xóáná",
+    "english_word": "to live",
+    "afrikaans": ""
+  },
+  {
+    "id": 661,
+    "jul'hoan_word": "!hún",
+    "english_word": "to kill",
+    "afrikaans": ""
+  },
+  {
+    "id": 662,
+    "jul'hoan_word": "!óá",
+    "english_word": "to tell",
+    "afrikaans": ""
+  },
+  {
+    "id": 663,
+    "jul'hoan_word": "!òq’óbá",
+    "english_word": "patch, fasten on, slap",
+    "afrikaans": ""
+  },
+  {
+    "id": 664,
+    "jul'hoan_word": "!aq",
+    "english_word": "iron, metal tool",
+    "afrikaans": ""
+  },
+  {
+    "id": 665,
+    "jul'hoan_word": "!aihn",
+    "english_word": "tree, wood",
+    "afrikaans": ""
+  },
+  {
+    "id": 666,
+    "jul'hoan_word": "tcí!’ánsì",
+    "english_word": "blankets (old shred of animal thing)",
+    "afrikaans": ""
+  },
+  {
+    "id": 667,
+    "jul'hoan_word": "!òm",
+    "english_word": "to bury",
+    "afrikaans": ""
+  },
+  {
+    "id": 668,
+    "jul'hoan_word": "!xómsì",
+    "english_word": "clothes",
+    "afrikaans": ""
+  },
+  {
+    "id": 669,
+    "jul'hoan_word": "!ómsì",
+    "english_word": "legs",
+    "afrikaans": ""
+  },
+  {
+    "id": 670,
+    "jul'hoan_word": "n!hoan",
+    "english_word": "kudu",
+    "afrikaans": ""
+  },
+  {
+    "id": 671,
+    "jul'hoan_word": "!’hoàn",
+    "english_word": "husband, man",
+    "afrikaans": ""
+  },
+  {
+    "id": 672,
+    "jul'hoan_word": "n!áng",
+    "english_word": "inside, belly",
+    "afrikaans": ""
+  },
+  {
+    "id": 673,
+    "jul'hoan_word": "n!àng",
+    "english_word": "eland",
+    "afrikaans": ""
+  },
+  {
+    "id": 674,
+    "jul'hoan_word": "!’ó",
+    "english_word": "back (body part)",
+    "afrikaans": ""
+  },
+  {
+    "id": 675,
+    "jul'hoan_word": "!ó",
+    "english_word": "older brother",
+    "afrikaans": ""
+  },
+  {
+    "id": 676,
+    "jul'hoan_word": "!ú-n!a’àn",
+    "english_word": "grandfather, big name",
+    "afrikaans": ""
+  },
+  {
+    "id": 677,
+    "jul'hoan_word": "!úmà",
+    "english_word": "little name",
+    "afrikaans": ""
+  },
+  {
+    "id": 678,
+    "jul'hoan_word": "!’Uú",
+    "english_word": "female name",
+    "afrikaans": ""
+  },
+  {
+    "id": 679,
+    "jul'hoan_word": "!óájù",
+    "english_word": "dead person",
+    "afrikaans": ""
+  },
+  {
+    "id": 680,
+    "jul'hoan_word": "!ósì",
+    "english_word": "pips, seeds",
+    "afrikaans": ""
+  },
+  {
+    "id": 681,
+    "jul'hoan_word": "tcí !’ó n!áng",
+    "english_word": "behind a thing (in its back)",
+    "afrikaans": ""
+  },
+  {
+    "id": 682,
+    "jul'hoan_word": "tcí g",
+    "english_word": "à’á n!áng",
+    "afrikaans": ""
+  },
+  {
+    "id": 683,
+    "jul'hoan_word": "ka g!ohm",
+    "english_word": "half (its ass)",
+    "afrikaans": ""
+  },
+  {
+    "id": 684,
+    "jul'hoan_word": "n!ù",
+    "english_word": "egg",
+    "afrikaans": ""
+  },
+  {
+    "id": 685,
+    "jul'hoan_word": "!ká",
+    "english_word": "heart",
+    "afrikaans": ""
+  },
+  {
+    "id": 686,
+    "jul'hoan_word": "n!ómà",
+    "english_word": "in the morning",
+    "afrikaans": ""
+  },
+  {
+    "id": 687,
+    "jul'hoan_word": "n!homà",
+    "english_word": "tomorrow",
+    "afrikaans": ""
+  },
+  {
+    "id": 688,
+    "jul'hoan_word": "n!homà n!ó",
+    "english_word": "tomorrow morning",
+    "afrikaans": ""
+  },
+  {
+    "id": 689,
+    "jul'hoan_word": "|ám",
+    "english_word": "sun",
+    "afrikaans": ""
+  },
+  {
+    "id": 690,
+    "jul'hoan_word": "|’hún",
+    "english_word": "white person, steenbok",
+    "afrikaans": ""
+  },
+  {
+    "id": 691,
+    "jul'hoan_word": "|òrè",
+    "english_word": "write, draw",
+    "afrikaans": ""
+  },
+  {
+    "id": 692,
+    "jul'hoan_word": "|xòbè",
+    "english_word": "borrow, lend",
+    "afrikaans": ""
+  },
+  {
+    "id": 693,
+    "jul'hoan_word": "|hó",
+    "english_word": "face",
+    "afrikaans": ""
+  },
+  {
+    "id": 694,
+    "jul'hoan_word": "|’hóm",
+    "english_word": "pretty",
+    "afrikaans": ""
+  },
+  {
+    "id": 695,
+    "jul'hoan_word": "|’ànà",
+    "english_word": "acacia (camel thorn)",
+    "afrikaans": ""
+  },
+  {
+    "id": 696,
+    "jul'hoan_word": "|’áí",
+    "english_word": "axe",
+    "afrikaans": ""
+  },
+  {
+    "id": 697,
+    "jul'hoan_word": "|ùìsì",
+    "english_word": "in-laws",
+    "afrikaans": ""
+  },
+  {
+    "id": 698,
+    "jul'hoan_word": "|’ùìsí",
+    "english_word": "carrying bag",
+    "afrikaans": ""
+  },
+  {
+    "id": 699,
+    "jul'hoan_word": "|’húísì",
+    "english_word": "ears",
+    "afrikaans": ""
+  },
+  {
+    "id": 700,
+    "jul'hoan_word": "g|à’á",
+    "english_word": "eye",
+    "afrikaans": ""
+  },
+  {
+    "id": 701,
+    "jul'hoan_word": "||àmà",
+    "english_word": "to come from",
+    "afrikaans": ""
+  },
+  {
+    "id": 702,
+    "jul'hoan_word": "||’óáná",
+    "english_word": "carry on shoulder",
+    "afrikaans": ""
+  },
+  {
+    "id": 703,
+    "jul'hoan_word": "||xàm",
+    "english_word": "to accompany",
+    "afrikaans": ""
+  },
+  {
+    "id": 704,
+    "jul'hoan_word": "g||óré",
+    "english_word": "noon",
+    "afrikaans": ""
+  },
+  {
+    "id": 705,
+    "jul'hoan_word": "||xáí",
+    "english_word": "to sweep",
+    "afrikaans": ""
+  },
+  {
+    "id": 706,
+    "jul'hoan_word": "n||òq n!ore",
+    "english_word": "area",
+    "afrikaans": ""
+  },
+  {
+    "id": 707,
+    "jul'hoan_word": "n||umì",
+    "english_word": "to go around",
+    "afrikaans": ""
+  },
+  {
+    "id": 708,
+    "jul'hoan_word": "||kòà",
+    "english_word": "to work",
+    "afrikaans": ""
+  },
+  {
+    "id": 709,
+    "jul'hoan_word": "g||kàá",
+    "english_word": "mangetti",
+    "afrikaans": ""
+  },
+  {
+    "id": 710,
+    "jul'hoan_word": "||’ám",
+    "english_word": "clap (hands)",
+    "afrikaans": ""
+  },
+  {
+    "id": 711,
+    "jul'hoan_word": "||ah||ah",
+    "english_word": "cover",
+    "afrikaans": ""
+  },
+  {
+    "id": 712,
+    "jul'hoan_word": "||’hánn!áng",
+    "english_word": "head, top",
+    "afrikaans": ""
+  },
+  {
+    "id": 713,
+    "jul'hoan_word": "||’ámá",
+    "english_word": "buy",
+    "afrikaans": ""
+  },
+  {
+    "id": 714,
+    "jul'hoan_word": "g|ú",
+    "english_word": "night",
+    "afrikaans": ""
+  },
+  {
+    "id": 715,
+    "jul'hoan_word": "goàq‡’àn g|ú",
+    "english_word": "last night",
+    "afrikaans": ""
+  },
+  {
+    "id": 716,
+    "jul'hoan_word": "|ám",
+    "english_word": "day",
+    "afrikaans": ""
+  },
+  {
+    "id": 717,
+    "jul'hoan_word": "n!ómà",
+    "english_word": "morning",
+    "afrikaans": ""
+  },
+  {
+    "id": 718,
+    "jul'hoan_word": "||á’íkè",
+    "english_word": "today",
+    "afrikaans": ""
+  },
+  {
+    "id": 719,
+    "jul'hoan_word": "|ámà hè",
+    "english_word": "today",
+    "afrikaans": ""
+  },
+  {
+    "id": 720,
+    "jul'hoan_word": "g||óré",
+    "english_word": "noon",
+    "afrikaans": ""
+  },
+  {
+    "id": 721,
+    "jul'hoan_word": "g!òá",
+    "english_word": "sunset",
+    "afrikaans": ""
+  },
+  {
+    "id": 722,
+    "jul'hoan_word": "n!úí",
+    "english_word": "month",
+    "afrikaans": ""
+  },
+  {
+    "id": 723,
+    "jul'hoan_word": "|ám n|úí",
+    "english_word": "another day",
+    "afrikaans": ""
+  },
+  {
+    "id": 724,
+    "jul'hoan_word": "kxáícè",
+    "english_word": "first",
+    "afrikaans": ""
+  },
+  {
+    "id": 725,
+    "jul'hoan_word": "ce",
+    "english_word": "again",
+    "afrikaans": ""
+  }
+]

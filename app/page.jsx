@@ -250,129 +250,174 @@ export default function TranslatorPage() {
   };
 
   const LanguageButton = ({ lang, onClick, type, isActive }) => (
-    <button
-      onClick={onClick}
-      disabled={dictionaryLoading}
-      className={`px-3 sm:px-4 py-2 text-xs sm:text-sm font-medium rounded-full transition-all duration-200 ease-in-out focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 dark:focus:ring-offset-gray-900
-                        ${isActive
-          ? 'bg-blue-600 text-white shadow-md hover:bg-blue-700 focus:ring-blue-500'
-          : 'bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-200 hover:bg-gray-300 dark:hover:bg-gray-600 focus:ring-gray-400'
-        }
-                        ${dictionaryLoading ? 'opacity-50 cursor-not-allowed' : ''}
-                        `}
-    >
-      {lang.name}
-    </button>
+      <button
+          onClick={onClick}
+          disabled={dictionaryLoading}
+          className={`
+      px-4 py-2 text-sm font-semibold rounded-full transition-all duration-200
+      focus:outline-none focus:ring-2 focus:ring-amber-400 focus:ring-offset-2
+      shadow-md
+      ${isActive
+              ? 'bg-amber-600 text-white shadow-lg hover:bg-amber-700'
+              : 'bg-white/70 text-amber-900 hover:bg-amber-200/80'
+          }
+      ${dictionaryLoading ? 'opacity-50 cursor-not-allowed' : ''}
+    `}
+      >
+        {lang.name}
+      </button>
   );
 
   if (dictionaryLoading) {
     return (
-      <main className="min-h-screen bg-gray-100 dark:bg-gray-900 flex flex-col items-center justify-center p-4">
-        <Loader2 size={48} className="text-blue-500 animate-spin" />
-        <p className="mt-4 text-lg text-gray-700 dark:text-gray-300">Loading dictionary...</p>
-      </main>
+        <div className="relative w-full min-h-screen flex flex-col items-center justify-center overflow-x-hidden">
+          {/* Background image */}
+          <div
+              className="absolute inset-0 z-0 bg-cover bg-center"
+              style={{
+                backgroundImage: "url('/indigenous-bg.jpg')",
+                filter: "brightness(0.7) blur(0.5px)",
+              }}
+          />
+          {/* Amber radial gradient overlay */}
+          <div className="absolute inset-0 z-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-amber-200/60 via-amber-300/40 to-amber-600/30" />
+          {/* Subtle vignette */}
+          <div className="absolute inset-0 z-0 bg-gradient-to-b from-transparent via-transparent to-amber-900/10" />
+
+          <main className="relative z-10 min-h-screen flex flex-col items-center justify-center p-4">
+            <Loader2 size={48} className="text-amber-500 animate-spin" />
+            <p className="mt-4 text-lg text-amber-900">Loading dictionary...</p>
+          </main>
+        </div>
     );
   }
 
   if (dictionaryError) {
     return (
-      <main className="min-h-screen bg-gray-100 dark:bg-gray-900 flex flex-col items-center justify-center p-4 text-center">
-        <AlertTriangle size={48} className="text-red-500" />
-        <p className="mt-4 text-lg text-red-600 dark:text-red-400">Error loading dictionary:</p>
-        <p className="mt-2 text-sm text-gray-700 dark:text-gray-300 bg-red-100 dark:bg-red-900 p-3 rounded-md">{dictionaryError}</p>
-        <button
-          onClick={() => window.location.reload()}
-          className="mt-6 px-4 py-2 bg-blue-500 text-white rounded-full hover:bg-blue-600"
-        >
-          Try Again
-        </button>
-      </main>
+        <div className="relative w-full min-h-screen flex flex-col items-center justify-center overflow-x-hidden">
+          {/* Background image */}
+          <div
+              className="absolute inset-0 z-0 bg-cover bg-center"
+              style={{
+                backgroundImage: "url('/indigenous-bg.jpg')",
+                filter: "brightness(0.7) blur(0.5px)",
+              }}
+          />
+          {/* Amber radial gradient overlay */}
+          <div className="absolute inset-0 z-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-amber-200/60 via-amber-300/40 to-amber-600/30" />
+          {/* Subtle vignette */}
+          <div className="absolute inset-0 z-0 bg-gradient-to-b from-transparent via-transparent to-amber-900/10" />
+
+          <main className="relative z-10 min-h-screen flex flex-col items-center justify-center p-4 text-center">
+            <AlertTriangle size={48} className="text-red-500" />
+            <p className="mt-4 text-lg text-red-600">Error loading dictionary:</p>
+            <p className="mt-2 text-sm text-amber-900 bg-amber-100 p-3 rounded-md">{dictionaryError}</p>
+            <button
+                onClick={() => window.location.reload()}
+                className="mt-6 px-4 py-2 bg-amber-600 text-white rounded-full hover:bg-amber-700"
+            >
+              Try Again
+            </button>
+          </main>
+        </div>
     );
   }
 
   return (
-    <>
-      <main className="min-h-screen bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-gray-100 flex flex-col items-center py-6 sm:py-8 px-2 sm:px-4 font-sans">
-        <div className="w-full max-w-2xl lg:max-w-4xl">
+      <div className="relative w-full min-h-screen flex flex-col items-center justify-center overflow-x-hidden">
+        {/* Background image */}
+        <div
+            className="absolute inset-0 z-0 bg-cover bg-center"
+            style={{
+              backgroundImage: "url('/indigenous-bg.jpg')",
+              filter: "brightness(0.7) blur(0.5px)",
+            }}
+        />
+        {/* Amber radial gradient overlay */}
+        <div className="absolute inset-0 z-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-amber-200/60 via-amber-300/40 to-amber-600/30" />
+        {/* Subtle vignette */}
+        <div className="absolute inset-0 z-0 bg-gradient-to-b from-transparent via-transparent to-amber-900/10" />
+
+        <main className="relative z-10 w-full max-w-2xl lg:max-w-4xl py-6 sm:py-8 px-2 sm:px-4 font-sans text-gray-900">
           <div className="text-center mb-6 sm:mb-8">
-            <h1 className="text-2xl sm:text-3xl font-bold text-blue-600 dark:text-blue-400">Multilingual Translator</h1>
-            <p className="text-xs sm:text-sm text-gray-600 dark:text-gray-400">English - Ju/&apos;hoansi - Afrikaans</p>
+            <h1 className="text-3xl sm:text-4xl font-bold text-amber-700 drop-shadow">JU/'H Multilingual Translator</h1>
+            <p className="text-xs sm:text-sm text-amber-900/80">English - Ju/&apos;hoansi - Afrikaans</p>
           </div>
 
-          <div className="flex flex-col sm:flex-row items-center justify-between mb-4 p-3 bg-white dark:bg-gray-800 rounded-xl shadow-lg space-y-2 sm:space-y-0">
+          <div className="flex flex-col sm:flex-row items-center justify-between mb-4 p-3 bg-white/80 backdrop-blur-sm rounded-xl shadow-lg border border-amber-200/40 space-y-2 sm:space-y-0">
             <div className="flex flex-wrap justify-center sm:justify-start gap-1">
               {languages.map(lang => (
-                <LanguageButton key={`source-${lang.code}`} lang={lang} onClick={() => setSourceLang(lang.code)} type="source" isActive={sourceLang === lang.code} />
+                  <LanguageButton key={`source-${lang.code}`} lang={lang} onClick={() => setSourceLang(lang.code)} type="source" isActive={sourceLang === lang.code} />
               ))}
             </div>
 
             <button
-              onClick={handleSwapLanguages}
-              disabled={dictionaryLoading}
-              className="p-2 rounded-full hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors focus:outline-none focus:ring-2 focus:ring-blue-500 disabled:opacity-50 disabled:cursor-not-allowed"
-              aria-label="Swap languages"
+                onClick={handleSwapLanguages}
+                disabled={dictionaryLoading}
+                className="p-2 rounded-full hover:bg-amber-200/80 transition-colors focus:outline-none focus:ring-2 focus:ring-amber-400 disabled:opacity-50 disabled:cursor-not-allowed"
+                aria-label="Swap languages"
             >
-              <ArrowRightLeft size={20} className="text-gray-600 dark:text-gray-300" />
+              <ArrowRightLeft size={20} className="text-amber-700" />
             </button>
 
             <div className="flex flex-wrap justify-center sm:justify-end gap-1">
               {languages.map(lang => (
-                <LanguageButton key={`target-${lang.code}`} lang={lang} onClick={() => setTargetLang(lang.code)} type="target" isActive={targetLang === lang.code} />
+                  <LanguageButton key={`target-${lang.code}`} lang={lang} onClick={() => setTargetLang(lang.code)} type="target" isActive={targetLang === lang.code} />
               ))}
             </div>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
-            <div className="bg-white dark:bg-gray-800 p-4 rounded-xl shadow-lg flex flex-col">
-              <textarea
-                value={inputText}
-                onChange={handleInputChange}
-                placeholder={isMapReady ? `Enter text in ${languages.find(l => l.code === sourceLang)?.name || 'selected language'}...` : "Dictionary loading..."}
-                className="w-full flex-grow h-40 sm:h-48 p-3 bg-transparent border border-gray-300 dark:border-gray-600 rounded-lg resize-none focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none text-sm sm:text-base"
-                maxLength={MAX_TEXT_LENGTH}
-                aria-label="Input text for translation"
-                disabled={!isMapReady}
-              />
-              <div className="flex justify-between items-center mt-2 pt-2 border-t border-gray-200 dark:border-gray-700">
-                <span className="text-xs text-gray-500 dark:text-gray-400">{inputText.length}/{MAX_TEXT_LENGTH}</span>
+            <div className="bg-white/80 backdrop-blur-sm rounded-xl shadow-xl border border-amber-200/40 p-4 flex flex-col">
+          <textarea
+              value={inputText}
+              onChange={handleInputChange}
+              placeholder={isMapReady ? `Enter text in ${languages.find(l => l.code === sourceLang)?.name || 'selected language'}...` : "Dictionary loading..."}
+              className="w-full flex-grow h-40 sm:h-48 p-3 bg-transparent border border-amber-200/40 rounded-lg resize-none focus:ring-2 focus:ring-amber-400 focus:border-transparent outline-none text-sm sm:text-base"
+              maxLength={MAX_TEXT_LENGTH}
+              aria-label="Input text for translation"
+              disabled={!isMapReady}
+          />
+              <div className="flex justify-between items-center mt-2 pt-2 border-t border-amber-100">
+                <span className="text-xs text-amber-700">{inputText.length}/{MAX_TEXT_LENGTH}</span>
                 <div className="flex items-center space-x-1 sm:space-x-2">
                   {inputText.length > 0 && (
-                    <button onClick={handleClearInput} className="p-1.5 text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200 hover:bg-gray-200 dark:hover:bg-gray-700 rounded-full" aria-label="Clear input">
-                      <X size={18} />
-                    </button>
+                      <button onClick={handleClearInput} className="p-1.5 text-amber-700 hover:text-amber-900 hover:bg-amber-100 rounded-full" aria-label="Clear input">
+                        <X size={18} />
+                      </button>
                   )}
-                  <button onClick={() => handleSpeak(inputText, sourceLang)} className="p-1.5 text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200 hover:bg-gray-200 dark:hover:bg-gray-700 rounded-full" aria-label="Speak input text">
+                  <button onClick={() => handleSpeak(inputText, sourceLang)} className="p-1.5 text-amber-700 hover:text-amber-900 hover:bg-amber-100 rounded-full" aria-label="Speak input text">
                     <Volume2 size={18} />
                   </button>
-                  <button onClick={() => handleCopyToClipboard(inputText)} className="p-1.5 text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200 hover:bg-gray-200 dark:hover:bg-gray-700 rounded-full" aria-label="Copy input text">
+                  <button onClick={() => handleCopyToClipboard(inputText)} className="p-1.5 text-amber-700 hover:text-amber-900 hover:bg-amber-100 rounded-full" aria-label="Copy input text">
                     <Copy size={18} />
                   </button>
                 </div>
               </div>
             </div>
 
-            <div className="bg-white dark:bg-gray-800 p-4 rounded-xl shadow-lg flex flex-col">
-              <textarea
-                value={outputText}
-                readOnly
-                placeholder="Translation..."
-                className="w-full flex-grow h-40 sm:h-48 p-3 bg-gray-50 dark:bg-gray-700 border border-gray-300 dark:border-gray-600 rounded-lg resize-none outline-none text-sm sm:text-base"
-                aria-label="Translated text"
-              />
-              <div className="flex justify-between items-center mt-2 pt-2 border-t border-gray-200 dark:border-gray-700">
+            <div className="bg-white/80 backdrop-blur-sm rounded-xl shadow-xl border border-amber-200/40 p-4 flex flex-col">
+          <textarea
+              value={outputText}
+              readOnly
+              placeholder="Translation..."
+              className="w-full flex-grow h-40 sm:h-48 p-3 bg-amber-50 border border-amber-200/40 rounded-lg resize-none outline-none text-sm sm:text-base"
+              aria-label="Translated text"
+          />
+              <div className="flex justify-between items-center mt-2 pt-2 border-t border-amber-100">
                 <button
-                  onClick={handleTranslateButtonClick}
-                  className="px-3 py-1.5 bg-blue-500 text-white rounded-full hover:bg-blue-600 text-xs font-medium transition-colors focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 dark:focus:ring-offset-gray-800 disabled:opacity-50"
-                  title="Save to history"
-                  disabled={!inputText.trim() || !outputText.trim() || !isMapReady}
+                    onClick={handleTranslateButtonClick}
+                    className="px-3 py-1.5 bg-amber-600 text-white rounded-full hover:bg-amber-700 text-xs font-medium transition-colors focus:outline-none focus:ring-2 focus:ring-amber-400 focus:ring-offset-2 disabled:opacity-50"
+                    title="Save to history"
+                    disabled={!inputText.trim() || !outputText.trim() || !isMapReady}
                 >
                   Save
                 </button>
                 <div className="flex items-center space-x-1 sm:space-x-2">
-                  <button onClick={() => handleSpeak(outputText, targetLang)} className="p-1.5 text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200 hover:bg-gray-200 dark:hover:bg-gray-700 rounded-full" aria-label="Speak translated text">
+                  <button onClick={() => handleSpeak(outputText, targetLang)} className="p-1.5 text-amber-700 hover:text-amber-900 hover:bg-amber-100 rounded-full" aria-label="Speak translated text">
                     <Volume2 size={18} />
                   </button>
-                  <button onClick={() => handleCopyToClipboard(outputText)} className="p-1.5 text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200 hover:bg-gray-200 dark:hover:bg-gray-700 rounded-full" aria-label="Copy translated text">
+                  <button onClick={() => handleCopyToClipboard(outputText)} className="p-1.5 text-amber-700 hover:text-amber-900 hover:bg-amber-100 rounded-full" aria-label="Copy translated text">
                     <Copy size={18} />
                   </button>
                 </div>
@@ -381,35 +426,34 @@ export default function TranslatorPage() {
           </div>
 
           {history.length > 0 && (
-            <div className="mt-8 sm:mt-10">
-              <h2 className="text-lg sm:text-xl font-semibold mb-3 sm:mb-4 text-gray-700 dark:text-gray-300">Translation History</h2>
-              <div className="space-y-3">
-                {history.map(item => (
-                  <div key={item.id} className={`p-3 sm:p-4 rounded-lg shadow-md transition-all ${item.saved ? 'bg-blue-50 dark:bg-blue-900/50 border-l-4 border-blue-500' : 'bg-white dark:bg-gray-800'}`}>
-                    <div className="flex justify-between items-start mb-1.5">
-                      <div>
-                        <span className="text-xs font-medium text-gray-500 dark:text-gray-400">
-                          {languages.find(l => l.code === item.from)?.name} → {languages.find(l => l.code === item.to)?.name}
-                        </span>
+              <div className="mt-8 sm:mt-10">
+                <h2 className="text-lg sm:text-xl font-semibold mb-3 sm:mb-4 text-amber-900">Translation History</h2>
+                <div className="space-y-3">
+                  {history.map(item => (
+                      <div key={item.id} className={`p-3 sm:p-4 rounded-lg shadow-md transition-all ${item.saved ? 'bg-amber-50 border-l-4 border-amber-600' : 'bg-white/80'}`}>
+                        <div className="flex justify-between items-start mb-1.5">
+                          <div>
+                    <span className="text-xs font-medium text-amber-700">
+                      {languages.find(l => l.code === item.from)?.name} → {languages.find(l => l.code === item.to)?.name}
+                    </span>
+                          </div>
+                          <div className="flex items-center space-x-1 sm:space-x-2">
+                            <button onClick={() => toggleSaveHistoryItem(item.id)} className={`p-1 rounded-full hover:bg-amber-100 ${item.saved ? 'text-amber-600' : 'text-amber-400'}`} aria-label={item.saved ? "Unsave translation" : "Save translation"}>
+                              <Star size={16} fill={item.saved ? 'currentColor' : 'none'} />
+                            </button>
+                            <button onClick={() => deleteHistoryItem(item.id)} className="p-1 rounded-full text-amber-400 hover:text-red-500 hover:bg-amber-100" aria-label="Delete translation">
+                              <Trash2 size={16} />
+                            </button>
+                          </div>
+                        </div>
+                        <p className="text-xs sm:text-sm text-amber-900 mb-1 break-words"><strong>Original:</strong> {item.original}</p>
+                        <p className="text-xs sm:text-sm text-amber-700 break-words"><strong>Translated:</strong> {item.translated}</p>
                       </div>
-                      <div className="flex items-center space-x-1 sm:space-x-2">
-                        <button onClick={() => toggleSaveHistoryItem(item.id)} className={`p-1 rounded-full hover:bg-gray-200 dark:hover:bg-gray-700 ${item.saved ? 'text-blue-500' : 'text-gray-400 dark:text-gray-500'}`} aria-label={item.saved ? "Unsave translation" : "Save translation"}>
-                          <Star size={16} fill={item.saved ? 'currentColor' : 'none'} />
-                        </button>
-                        <button onClick={() => deleteHistoryItem(item.id)} className="p-1 rounded-full text-gray-400 dark:text-gray-500 hover:text-red-500 dark:hover:text-red-400 hover:bg-gray-200 dark:hover:bg-gray-700" aria-label="Delete translation">
-                          <Trash2 size={16} />
-                        </button>
-                      </div>
-                    </div>
-                    <p className="text-xs sm:text-sm text-gray-700 dark:text-gray-300 mb-1 break-words"><strong>Original:</strong> {item.original}</p>
-                    <p className="text-xs sm:text-sm text-blue-600 dark:text-blue-400 break-words"><strong>Translated:</strong> {item.translated}</p>
-                  </div>
-                ))}
+                  ))}
+                </div>
               </div>
-            </div>
           )}
-        </div>
-      </main>
-    </>
+        </main>
+      </div>
   );
 }
