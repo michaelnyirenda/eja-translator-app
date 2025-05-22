@@ -471,17 +471,36 @@ useEffect(() => {
         </div>
 
         <div className="flex flex-col sm:flex-row items-center justify-between mb-4 p-3 bg-white/80 backdrop-blur-sm rounded-xl shadow-lg border border-amber-200/40 space-y-2 sm:space-y-0">
-          <div className="flex flex-wrap justify-center sm:justify-start gap-1">
-            {languages.map((lang) => (
-              <LanguageButton
-                key={`source-${lang.code}`}
-                lang={lang}
-                onClick={() => setSourceLang(lang.code)}
-                type="source"
-                isActive={sourceLang === lang.code}
-              />
-            ))}
-          </div>
+          <div>
+  <select
+    value={sourceLang}
+    onChange={e => setSourceLang(e.target.value)}
+    className={`
+      px-4 py-2 rounded-full border border-amber-300
+      bg-white text-amber-900 font-semibold shadow
+      focus:outline-none focus:ring-2 focus:ring-amber-400
+      transition-all duration-200
+      cursor-pointer
+      ${dictionaryLoading ? "opacity-50 cursor-not-allowed" : ""}
+    `}
+    disabled={dictionaryLoading}
+    aria-label="Select source language"
+    style={{
+      appearance: "none",
+      WebkitAppearance: "none",
+      MozAppearance: "none",
+      backgroundPosition: "right 1rem top 50%, right 1.5rem top 50%",
+      backgroundSize: "0.65em 0.65em, 0.65em 0.65em",
+      backgroundRepeat: "no-repeat",
+    }}
+  >
+    {languages.map(lang => (
+      <option key={lang.code} value={lang.code}>
+        {lang.name}
+      </option>
+    ))}
+  </select>
+</div>
 
           <button
             onClick={handleSwapLanguages}
@@ -492,17 +511,36 @@ useEffect(() => {
             <ArrowRightLeft size={20} className="text-amber-700" />
           </button>
 
-          <div className="flex flex-wrap justify-center sm:justify-end gap-1">
-            {languages.map((lang) => (
-              <LanguageButton
-                key={`target-${lang.code}`}
-                lang={lang}
-                onClick={() => setTargetLang(lang.code)}
-                type="target"
-                isActive={targetLang === lang.code}
-              />
-            ))}
-          </div>
+          <div>
+  <select
+    value={targetLang}
+    onChange={e => setTargetLang(e.target.value)}
+    className={`
+      px-4 py-2 rounded-full border border-amber-300
+      bg-white text-amber-900 font-semibold shadow
+      focus:outline-none focus:ring-2 focus:ring-amber-400
+      transition-all duration-200
+      cursor-pointer
+      ${dictionaryLoading ? "opacity-50 cursor-not-allowed" : ""}
+    `}
+    disabled={dictionaryLoading}
+    aria-label="Select target language"
+    style={{
+      appearance: "none",
+      WebkitAppearance: "none",
+      MozAppearance: "none",
+      backgroundPosition: "right 1rem top 50%, right 1.5rem top 50%",
+      backgroundSize: "0.65em 0.65em, 0.65em 0.65em",
+      backgroundRepeat: "no-repeat",
+    }}
+  >
+    {languages.map(lang => (
+      <option key={lang.code} value={lang.code}>
+        {lang.name}
+      </option>
+    ))}
+  </select>
+</div>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
