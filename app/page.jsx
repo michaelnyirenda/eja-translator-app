@@ -451,8 +451,8 @@ useEffect(() => {
       <div
         className="absolute inset-0 z-0 bg-cover bg-center"
         style={{
-          backgroundImage: "url('/sabe.jpg')",
-          filter: "brightness(0.7) blur(0.5px)",
+          backgroundImage: "url('/new2.jpg')",
+          filter: "brightness(0.7) blur(2px)",
         }}
       />
       {/* Amber radial gradient overlay */}
